@@ -242,17 +242,3 @@ Nota del curso = (0.1)*Quices + (0.4)*Laboratorios y/o talleres + (0.5)*Proyecto
     <li> Encoder incremental</li>
     <img src="https://http2.mlstatic.com/D_NQ_NP_731207-MEC31981852736_082019-O.webp" alt="encoder arduino" caption="Hola"/>
 </ul>
-
-<h3>Bibliografía </h3>
-
-<ul>
-    <li>A. Barrientos, L. F. Peñin, C. Balaguer, and R. Aracil, Fundamentos de Robótica. 1997.</li>
-    <li>A. Ollero, “Robótica. Manipuladores y robots móviles,” Robotica Manipuladores y robots moviles. 2001.</li>
-    <li>J. J. Craig, Introduction to Modern Robotics: Mechanics, Planning, and Control. 2004.</li>
-    <li>. Siegwart, I. R. Nourbakhsh, and D. Scaramuzza, Introduction to Autonomous Mobile Robots. 2011.</li>
-    <li>S. K. Saha, Introducción a la Robótica. 1998.</li>
-    <li>F. Zhang, J. Leitner, M. Milford, B. Upcroft, and P. Corke, “Towards vision-based deep reinforcement learning for robotic motion control,” in Australasian Conference on Robotics and Automation, ACRA, 2015.</li>
-    <li>M. Calisti, G. Picardi, and C. Laschi, “Fundamentals of soft robot locomotion,” Journal of the Royal Society Interface. 2017.</li>
-    <li>B. S. Peters, P. R. Armijo, C. Krause, S. A. Choudhury, and D. Oleynikov, “Review of emerging surgical robotic technology,” Surgical Endoscopy. 2018.</li>
-    <li>R.-C. Weber, M. Bellenberg, and D. Schwarzenberger, “Robotino Manual,” © Festo Didact. GmbH Co, 2010.</li>
-</ul>
