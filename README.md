@@ -180,7 +180,7 @@ Nota del curso = (0.1)*Quices + (0.4)*Laboratorios y/o talleres + (0.5)*Proyecto
 		<li> Permitidas las salidas al baño 🚻 y a recibir llamadas 📲, en los quices y parciales se debe dejar el celular en el puesto para salir al baño</li>
 		<li> Si no dejan dictar la clase, pasan al tablero a dar la clase o doy la clase por vista 😤</li>
 		<li> No es permitido tomar fotos, ni videos en clase 📵. El material de clase está en el siguiente repositorio git: https://github.com/FBarreraP/SeminarioMicrosIoT </li>
-		<li> Los laboratorios y el proyecto consistirán únicamente de montaje y podrán ser realizados en grupos de máximo 2 estudiantes 🧍‍♂️🧍‍♀️</li>
+		<li> Los laboratorios (excepto el de GLCD) y el proyecto consistirán únicamente de montaje y podrán ser realizados en grupos de máximo 2 estudiantes 🧍‍♂️🧍‍♀️</li>
 		<li> Los montajes realizados en protoboard no son aceptados con jumpers, por tanto, deben ser realizados con cable UTP y no son compartidos, es decir, un montaje por grupo 🤷‍♂️</li>
 		<li> Los talleres se calificarán con rúbricas de 0.0 a 5.0 con intervalo de 1.0; las cuales tendrán diferentes entregables con fechas fijas de entrega y el orden de entrega de los grupos será definida por el profesor 💥</li> 
 		<li> Los quices serán individuales y con esfero 📄</li> 
@@ -193,6 +193,7 @@ Nota del curso = (0.1)*Quices + (0.4)*Laboratorios y/o talleres + (0.5)*Proyecto
 	<li> Revisión sobre la calificación solamente dentro de los dias (3) establecidos en el reglamento estudiantil </li>
 	<li> Con el 10% de las fallas se pierde la materia</li>
 	<li> Las ausencias a clases donde se saque una calificación se debe presentar la excusa familiar o laboral en la dirección del programa</li>
+	<li> El seminario se aprueba con una calificación final igual o superior a 3.5 </li>
 </ul>
 
 <h3>NO EXCUSAS ❌</h3>
