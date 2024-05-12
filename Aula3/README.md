@@ -6,39 +6,39 @@ Esta clase consiste en estudiar la pantalla GLCD (KS0108).
 
 Las pantallas gráficas de cristal líquido (GLCD) son monocromáticas. Consumen poca energía eléctrica, siendo su principal ventaja. Así mismo, hay diferentes controladores, como el chip KS0108 de Samsung.
 
-![GLCD](image.png)
+![GLCD](Imagenes/image.png)
 
 <h2>GLCD 128x64</h2>
 
-![GLCD 128x64](image-1.png)
+![GLCD 128x64](Imagenes/image-1.png)
 
 Fuente: https://www.electronicwings.com/pic/glcd-128x64-interfacing-with-pic18f4550-microcontroller
 
-![Pinout GLCD](image-3.png)
+![Pinout GLCD](Imagenes/image-3.png)
 
 Fuente: Fuente: https://www.pjrc.com/teensy/td_libs_GLCD.html
 
-![Especificación de pines GLCD](image-2.png)
+![Especificación de pines GLCD](Imagenes/image-2.png)
 
-![Conexiones PIC y GLCD](image-4.png)
+![Conexiones PIC y GLCD](Imagenes/image-4.png)
 
-![CS1 y CS2 GLCD](image-5.png)
+![CS1 y CS2 GLCD](Imagenes/image-5.png)
 
 Fuente: https://openlabpro.com/guide/ks0108-graphic-lcd-interfacing-with-pic18f4550-part-1/
 
-![Direccionamiento GLCD](image-6.png)
+![Direccionamiento GLCD](Imagenes/image-6.png)
 
 Fuente: https://www.electronicwings.com/sensors-modules/glcd-128x64
 
-![Ejemplo >](image-7.png)
+![Ejemplo >](Imagenes/image-7.png)
 
 Fuente: https://www.electronicwings.com/sensors-modules/glcd-128x64
 
-![Ejemplo P](image-8.png)
+![Ejemplo P](Imagenes/image-8.png)
 
 <h3>Registros GLCD</h3>
 
-![Registros GLCD](image-9.png)
+![Registros GLCD](Imagenes/image-9.png)
 
 ```c
 //GLCD
@@ -52,7 +52,7 @@ Fuente: https://www.electronicwings.com/sensors-modules/glcd-128x64
 
 Utilizar una pantalla GLCD 128x64 para visualizar los ejemplos analizados anteriormente (> y P).
 
-![Ejemplo 1](image-12.png)
+![Ejemplo 1](Imagenes/image-12.png)
 
 ```c
 #include <xc.h>
@@ -184,9 +184,9 @@ void WritePage2(void){
 
 Utilizar una pantalla GLCD 128x64 para escribir texto (palabras y números), teniendo en cuenta el software GLCDFastLcdFontCreator.jar el cual creará un vector de 1024 bytes.
 
-![Texto GLCD](image-10.png)
+![Texto GLCD](Imagenes/image-10.png)
 
-![Ejemplo 2](image-13.png)
+![Ejemplo 2](Imagenes/image-13.png)
 
 ```c
 #include <xc.h>
@@ -473,11 +473,16 @@ void WritePage2(void){
 
 <h3>Ejemplo 3</h3>
 
-Utilizar una pantalla GLCD 128x64 para visualizar una imagen, utilizando el software Image2GLCD.
+Utilizar una pantalla GLCD 128x64 para visualizar una Imagenes/imagen, utilizando el software Imagenes/image2GLCD.
 
-![Imagen GLCD](image-11.png)
+![Imagenes/imagen GLCD](Imagenes/image-11.png)
 
-![Ejemplo 3](image-14.png)
+Algunas imágenes deben ser redimensionadas para su posterior conversión a bits, teniendo en cuenta los siguientes pasos:
+
+1. Pasar a .bmp monocromático
+2. Redimensionar la imagen a pixeles 62x64
+
+![Ejemplo 3](Imagenes/image-14.png)
 
 ```c
 #include <xc.h>
