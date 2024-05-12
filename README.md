@@ -220,7 +220,6 @@ Nota del curso = (0.1)*Quices + (0.4)*Laboratorios y/o talleres + (0.5)*Proyecto
     <img src="https://down-id.img.susercontent.com/file/4707898d5ce46da11955f0269f3f5468" alt="plataforma diferencial" caption="Hola"/>
 	 <li> Motoreductor DC</li>
     <img src="https://static.wixstatic.com/media/d96bda_8b8831ef4e0541c1839ac31ecdd8241e~mv2.png/v1/fill/w_480,h_480,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d96bda_8b8831ef4e0541c1839ac31ecdd8241e~mv2.png" alt="motoreductor" caption="Hola"/>
-	<img src="https://3dbots.co/wp-content/uploads/2023/05/LUXURY-TIRE.jpg" alt="motoreductor" caption="Hola"/>
     <li> Fuentes de alimentación</li>
     <img src="https://cdnx.jumpseller.com/mactornica/image/9804941/1.jpg?1653696069" alt="Fuente AMS1117" caption="Hola"/>
     <li> Multimetro</li>
