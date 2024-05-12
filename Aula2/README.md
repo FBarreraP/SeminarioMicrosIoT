@@ -43,6 +43,37 @@ Frecuencia de oscilación:
 
 Fuente: Datasheet PIC 18F45K22
 
+<h3>OSCCON</h3>
+
+Es un registro que permite configurar la fuente de oscilador del PIC 18F45K22.
+
+![OSCCON](image-4.png)
+
+![OSCCON bits](image-5.png)
+
+* El oscilador secundario es un cristal externo de baja potencia (32 kHz a 100 kHz) 
+* El reloj primario son osciladores externos, resonadores de cristal de cuarzo, resonadores cerámicos y circuitos Resistencia-Capacitor (RC).
+
+<h3>ANSEL, TRIS, LAT y PORT</h3>
+
+Son registros internos de los microcontroladores, con los cuales cada puerto puede ser configurado de diferente forma, deseando el tipo de conexión (entrada o salida). Por tanto, cada puerto tiene tres registros para su operación, TRIS (1=entrada / 0=salida), LAT y PORT; sin embargo, se debe configurar inicialmente el registro ANSEL, que es el que controla los pines como análogos (1) o digitales (0).
+
+![TRIS, LAT y PORT](image-6.png)
+
+<h2>PIC Kit v3.0</h2>
+
+El PIC Kit v3.0 es un hardware que permite programar los microcontroladores de Microchip. Además, entre sus funciones está la depuración (debugging) del código.
+
+![PIC Kit v3.0](image-7.png)
+
+Fuente: Datasheet PIC Kit 3.0
+
+![Conexiones PIC y PIC Kit v3.0](image-8.png)
+
+Fuente: Datasheet PIC Kit 3.0
 
 
-<h3>Coordenadas cartesianas</h3>
+
+
+
+
