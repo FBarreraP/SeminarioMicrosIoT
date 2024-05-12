@@ -1,9 +1,9 @@
 <h1 align="center">Profesor: MSc. Fabián Barrera Prieto 👨‍🏫<br>
-Materia: Seminario de Microcontroladores con IoT 🏎️<br>
+Materia: Seminario de Microcontroladores con IoT 🤖<br>
 Universidad: ECCI 🏫<br>
 Año: 2024 📅</h1><br>
 
-El curso de microcontroladores está enfocado al estudio y desarrollo de aplicaciones automatizadas con UART, SPI, I2C e IoT a través de un microcontrolador de bajo costo PIC 18F4550. 
+El curso de microcontroladores está enfocado al estudio y desarrollo de aplicaciones automatizadas con UART, SPI, I2C e IoT a través de un microcontrolador de bajo costo PIC 18F45K22. 
 
 <h1>Aula 1</h1>
 
@@ -13,131 +13,128 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 
 <h3>TEMAS 🤓</h3>
 
-<h4>Primer corte</h4>
+<h4>Primera semana</h4>
 
 <table>
 	<tr>
 		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
 	</tr>
 	<tr>
-		<td>30/01/2024</td> <td>2</td> <td>1</td> <td>1</td> <td>Presentación de la materia</td>
+		<td>04/06/2024</td> <td>2</td> <td>1</td> <td>1</td> <td>Presentación del seminario</td>
 	</tr>
     <tr>
-		<td>31/01/2024</td> <td>2</td> <td>2</td> <td>1</td> <td>Repaso lenguaje C/C++</td>
+		<td>04/06/2024</td> <td>2</td> <td>2</td> <td>1</td> <td>Introducción PIC 18F45K22</td>
 	</tr>
 	<tr>
-		<td>06/02/2024</td> <td>2</td> <td>3</td> <td>2</td> <td>Bitwise, corrimientos y bases numéricas (decimal, binario, hexadecimal, Octal)
-		</td>
+		<td>05/06/2024</td> <td>2</td> <td>3</td> <td>2</td> <td>GLCD</td>
 	</tr>
 	<tr>
-		<td>07/02/2024</td> <td>2</td> <td>4</td> <td>2</td> <td>Introducción PIC 18F4550, introducción a MPLAB y Proteus (Hola mundo)
-		</td>
+		<td>05/06/2024</td> <td>2</td> <td>4</td> <td>2</td> <td>Ejemplo GLCD</td>
 	</tr>
 	<tr>
-		<td>13/02/2024</td> <td>2</td> <td>5</td> <td>3</td> <td>Manejo de puertos (LAT, TRIS, PORT) y salidas digitales (depuración)
-		</td>
+		<td>06/06/2024</td> <td>2</td> <td>5</td> <td>3</td> <td>UART</td>
 	</tr>
 	<tr>
-		<td>14/02/2024</td> <td>2</td> <td>6</td> <td>3</td> <td>Desarrollo de Laboratorio</td>
+		<td>06/06/2024</td> <td>2</td> <td>6</td> <td>3</td> <td>Ejemplos UART</td>
 	</tr>
     <tr>
-		<td>20/02/2024</td> <td>2</td> <td>7</td> <td>4</td> <td>Entradas digitales (PULL UP y PULL DOWN)
-		</td>
+		<td>07/06/2024</td> <td>2</td> <td>7</td> <td>4</td> <td>IoT</td>
 	</tr>
     <tr>
-		<td>21/02/2024</td> <td>2</td> <td>8</td> <td>4</td> <td>Desarrollo de Laboratorio</td>
+		<td>07/06/2024</td> <td>2</td> <td>8</td> <td>4</td> <td>Ejemplo IoT</td>
 	</tr>
-	<tr>
-		<td>27/02/2024</td> <td>2</td> <td>9</td> <td>5</td> <td>Parcial primer corte</td>
-	</tr><!--semana de parciales del primer corte-->
-	<tr>
-		<td>28/02/2024</td> <td>2</td> <td>10</td> <td>5</td> <td>Retroalimentación del parcial primer corte y entrega de notas primer corte</td>
-	</tr><!--semana de registro de notas del primer corte-->
 
 </table>
 
-<h4>Segundo corte</h4>
+<h4>Segunda semana</h4>
 
 <table>
 	<tr>
 		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
 	</tr>
 	<tr>
-		<td>05/03/2024</td> <td>2</td> <td>11</td> <td>6</td> <td>Propuesta de proyecto</td>
+		<td>11/06/2024</td> <td>2</td> <td>11</td> <td>6</td> <td>Desarrollo de laboratorios y proyecto</td>
 	</tr>
 	<tr>
-		<td>06/03/2024</td> <td>2</td> <td>12</td> <td>6</td> <td>Interrupciones</td>
+		<td>11/06/2024</td> <td>2</td> <td>12</td> <td>6</td> <td>Desarrollo de laboratorios y proyecto</td>
 	</tr>
 	<tr>
-		<td>12/03/2024</td> <td>2</td> <td>13</td> <td>7</td> <td>Desarrollo de laboratorio</td>
+		<td>12/06/2024</td> <td>2</td> <td>13</td> <td>7</td> <td>Desarrollo de laboratorios y proyecto</td>
 	</tr>
 	<tr>
-		<td>13/03/2024</td> <td>2</td> <td>14</td> <td>7</td> <td>Matriz de leds 8x8</td>
+		<td>12/06/2024</td> <td>2</td> <td>14</td> <td>7</td> <td>Desarrollo de laboratorios y proyecto</td>
 	</tr>
 	<tr>
-		<td>19/03/2024</td> <td>2</td> <td>15</td> <td>8</td> <td>Desarrollo de laboratorio</td>
+		<td>13/06/2024</td> <td>2</td> <td>15</td> <td>8</td> <td>Desarrollo de laboratorios y proyecto</td>
 	</tr>
     <tr>
-		<td>20/03/2024</td> <td>2</td> <td>16</td> <td>8</td> <td>Pantalla LCD</td>
+		<td>13/06/2024</td> <td>2</td> <td>16</td> <td>8</td> <td>Desarrollo de laboratorios y proyecto</td>
 	</tr>
     <tr>
-		<td>02/04/2024</td> <td>2</td> <td>17</td> <td>9</td> <td>Desarrollo de Laboratorio</td>
+		<td>14/06/2024</td> <td>2</td> <td>17</td> <td>9</td> <td>Desarrollo de laboratorios y proyecto</td>
 	</tr>
     <tr>
-		<td>03/04/2024</td> <td>2</td> <td>18</td> <td>9</td> <td>Teclado matricial</td>
+		<td>14/06/2024</td> <td>2</td> <td>18</td> <td>9</td> <td>Desarrollo de laboratorios y proyecto</td>
 	</tr>
-    <tr>
-		<td>09/04/2024</td> <td>2</td> <td>19</td> <td>10</td> <td>Parcial segundo corte</td>
-	</tr><!--semana de parciales del segundo corte-->
-	<tr>
-		<td>10/04/2024</td> <td>2</td> <td>20</td> <td>10</td> <td>Retroalimentación del parcial segundo corte y entrega de notas segundo corte</td>
-	</tr><!--semana de registro de notas del segundo corte-->
 
 </table>
 
-<h4>Tercer corte</h4>
+<h4>Tercera semana</h4>
 
 <table>
 	<tr>
 		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
 	</tr>
 	<tr>
-		<td>16/04/2024</td> <td>2</td> <td>21</td> <td>11</td> <td>Avance de proyecto</td>
+		<td>17/06/2024</td> <td>2</td> <td>21</td> <td>11</td> <td>Desarrollo de laboratorios y proyecto/td>
 	</tr>
 	<tr>
-		<td>17/04/2024</td> <td>2</td> <td>22</td> <td>11</td> <td>Comunicación Serial (UART)
-		</td>
+		<td>17/06/2024</td> <td>2</td> <td>22</td> <td>11</td> <td>Desarrollo de laboratorios y proyecto</td>
 	</tr>
 	<tr>
-		<td>23/04/2024</td> <td>2</td> <td>23</td> <td>12</td> <td>Desarrollo de laboratorio</td>
+		<td>18/06/2024</td> <td>2</td> <td>23</td> <td>12</td> <td>Desarrollo de laboratorios y proyecto</td>
 	</tr>
 	<tr>
-		<td>24/04/2024</td> <td>2</td> <td>24</td> <td>12</td> <td>Temporizadores
-		</td>
+		<td>18/06/2024</td> <td>2</td> <td>24</td> <td>12</td> <td>Desarrollo de laboratorios y proyecto</td>
 	</tr><!--Finalización de clases-->
 	<tr>
-		<td>30/04/2024</td> <td>2</td> <td>25</td> <td>13</td> <td>Desarrollo de laboratorio y proyecto</td>
+		<td>19/06/2024</td> <td>2</td> <td>25</td> <td>13</td> <td>Desarrollo de laboratorios y proyecto</td>
 	</tr>
     <tr>
-		<td>01/05/2024</td> <td>2</td> <td>26</td> <td>13</td> <td>ADC</td>
+		<td>19/06/2024</td> <td>2</td> <td>26</td> <td>13</td> <td>Desarrollo de laboratorios y proyecto</td>
 	</tr>
     <tr>
-		<td>07/05/2024</td> <td>2</td> <td>27</td> <td>14</td> <td>Desarrollo de Laboratorio y proyecto</td>
+		<td>20/06/2024</td> <td>2</td> <td>27</td> <td>14</td> <td>Desarrollo de Laboratorios y proyecto</td>
 	</tr>
     <tr>
-		<td>08/05/2024</td> <td>2</td> <td>28</td> <td>14</td> <td>PWM</td>
+		<td>20/06/2024</td> <td>2</td> <td>28</td> <td>14</td> <td>Desarrollo de laboratorios y proyecto</td>
 	</tr>
     <tr>
-		<td>14/05/2024</td> <td>2</td> <td>29</td> <td>15</td> <td>Desarrollo de Laboratorio y proyecto</td>
+		<td>21/06/2024</td> <td>2</td> <td>29</td> <td>15</td> <td>Desarrollo de Laboratorios y proyecto</td>
 	</tr>
     <tr>
-		<td>15/05/2024</td> <td>2</td> <td>30</td> <td>15</td> <td>Desarrollo de Laboratorio y proyecto</td>
+		<td>21/06/2024</td> <td>2</td> <td>30</td> <td>15</td> <td>Desarrollo de Laboratorios y proyecto</td>
 	</tr>
-    <tr>
-		<td>21/05/2024</td> <td>2</td> <td>31</td> <td>16</td> <td>Examen final</td>
+
+</table>
+
+<h4>Cuarta semana</h4>
+
+<table>
+	<tr>
+		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
 	</tr>
 	<tr>
-		<td>22/05/2024</td> <td>2</td> <td>32</td> <td>16</td> <td>Entrega de proyecto</td>
+		<td>24/06/2024</td> <td>2</td> <td>21</td> <td>11</td> <td>Desarrollo de laboratorios y proyecto</td>
+	</tr>
+	<tr>
+		<td>24/06/2024</td> <td>2</td> <td>21</td> <td>11</td> <td>Desarrollo de laboratorios y proyecto</td>
+	</tr>
+	<tr>
+		<td>25/06/2024</td> <td>2</td> <td>22</td> <td>11</td> <td>Desarrollo de laboratorios y proyecto</td>
+	</tr>
+	<tr>
+		<td>25/06/2024</td> <td>2</td> <td>22</td> <td>11</td> <td>Desarrollo de laboratorios y proyecto</td>
 	</tr>
 
 </table>
@@ -146,54 +143,30 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 
 <table>
 	<tr>
-		<td>Corte</td>
 		<td>Actividad</td>
 		<td>Porcentaje 💯</td>
 		<td>Fecha</td>
 		<td>Metodología</td>
 	</tr>
 	<tr>
-		<td rowspan="2">Primer (20%)</td>
-		<td>Parcial</td>
+		<td>Quices</td>
 		<td>10%</td>
-		<td>27/03/2024</td>
-		<td rowspan="7">Presencial</td>
+		<td>Dos por semana</td>
+		<td rowspan="3">Presencial</td>
 	</tr>
 	<tr>
-		<td>Quices y/o laboratorio</td>
-		<td>10%</td>
+		<td>Laboratorios y/o talleres</td>
+		<td>40%</td>
 		<td>14/02/2024<br>20/02/2024<br>21/02/2024</td>
-	</tr>
-	<tr>
-		<td rowspan="2">Segundo (30%)</td>
-		<td>Parcial</td>
-		<td>15%</td>
-		<td>09/04/2024</td>
-	</tr>
-	<tr>
-		<td>Quices y/o laboratorio</td>
-		<td>15%</td>
-		<td>20/03/2024<br>02/04/2024<br>03/04/2024</td>
-	</tr>
-	<tr>
-		<td rowspan="3">Tercer (50%)</td>
-		<td>Examen final</td>
-		<td>15%</td>
-		<td>21/05/2024</td>
-	</tr>
-	<tr>
-		<td>Quices y/o laboratorio</td>
-		<td>15%</td>
-		<td>07/05/2024<br>08/05/2024<br>14/05/2024<br>15/05/2024</td>
 	</tr>
     <tr>
 		<td>Proyecto</td>
-		<td>20%</td>
-		<td>22/05/2024</td>
+		<td>50%</td>
+		<td>25/06/2024</td>
 	</tr>
 </table>
 
-Nota del curso = (0.2)*NotaCorte1 + (0.3)*NotaCorte2 + (0.5)*NotaCorte3
+Nota del curso = (0.1)*Quices + (0.4)*Laboratorios y/o talleres + (0.5)*Proyecto
 
 <h3>OBSERVACIONES ⚠️</h3>
 
@@ -206,11 +179,12 @@ Nota del curso = (0.2)*NotaCorte1 + (0.3)*NotaCorte2 + (0.5)*NotaCorte3
 		<li> Prohibido el uso de celular en quices, parciales y clase 📵</li>
 		<li> Permitidas las salidas al baño 🚻 y a recibir llamadas 📲, en los quices y parciales se debe dejar el celular en el puesto para salir al baño</li>
 		<li> Si no dejan dictar la clase, pasan al tablero a dar la clase o doy la clase por vista 😤</li>
-		<li> No es permitido tomar fotos, ni videos en clase 📵. El material de clase está en el siguiente repositorio git: https://github.com/FBarreraP/PlataformasRoboticas </li>
+		<li> No es permitido tomar fotos, ni videos en clase 📵. El material de clase está en el siguiente repositorio git: https://github.com/FBarreraP/SeminarioMicrosIoT </li>
 		<li> Los laboratorios y el proyecto consistirán únicamente de montaje y podrán ser realizados en grupos de máximo 2 estudiantes 🧍‍♂️🧍‍♀️</li>
 		<li> Los montajes realizados en protoboard no son aceptados con jumpers, por tanto, deben ser realizados con cable UTP y no son compartidos, es decir, un montaje por grupo 🤷‍♂️</li>
 		<li> Los talleres se calificarán con rúbricas de 0.0 a 5.0 con intervalo de 1.0; las cuales tendrán diferentes entregables con fechas fijas de entrega y el orden de entrega de los grupos será definida por el profesor 💥</li> 
-		<li> Los parciales y el examen final serán solucionados en hoja examen 📄</li> 
+		<li> Los quices serán individuales y con esfero 📄</li> 
+		<li> Si llegan tarde a la clase deben investigar posteriormente sobre el tema perdido ✍️</li> 
         <li> Uso obligatorio de bata blanca en el laboratorio 🥼</li>
 	</ul>
 
