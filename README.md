@@ -86,7 +86,7 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
 	</tr>
 	<tr>
-		<td>17/06/2024</td> <td>2</td> <td>21</td> <td>11</td> <td>Desarrollo de laboratorios y proyecto/td>
+		<td>17/06/2024</td> <td>2</td> <td>21</td> <td>11</td> <td>Desarrollo de laboratorios y proyecto</td>
 	</tr>
 	<tr>
 		<td>17/06/2024</td> <td>2</td> <td>22</td> <td>11</td> <td>Desarrollo de laboratorios y proyecto</td>
