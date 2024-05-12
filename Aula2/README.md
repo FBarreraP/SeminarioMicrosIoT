@@ -6,15 +6,15 @@ Esta clase consiste en realizar una introducción al PIC 18F45K22, estudiando lo
 
 El PIC 18F45k22 es un microcontrolador PIC (Peripheral Interface Controller) de 40 pines de la familia de 8 bits de Microchip. La CPU es de tipo RISC, el cual ofrece alta velocidad de procesamiento mayor a 10 MIPs (64MHz).
 
-![Características PIC 18F45K22](image.png)
+![Características PIC 18F45K22](Imagenes/image.png)
 
 Fuente: Datasheet PIC 18F45K22
 
-![Características PIC 18F45K22](image-1.png)
+![Características PIC 18F45K22](Imagenes/image-1.png)
 
 Fuente: Datasheet PIC 18F45K22
 
-![PIC 18F45K22](image-2.png)
+![PIC 18F45K22](Imagenes/image-2.png)
 
 Fuente: Datasheet PIC 18F45K22 y Proteus
 
@@ -39,7 +39,7 @@ Periféricos:
 Frecuencia de oscilación:
 - 2 pines de Clock 
 
-![Clock externo](image-3.png)
+![Clock externo](Imagenes/image-3.png)
 
 Fuente: Datasheet PIC 18F45K22
 
@@ -47,9 +47,9 @@ Fuente: Datasheet PIC 18F45K22
 
 Es un registro que permite configurar la fuente de oscilador del PIC 18F45K22.
 
-![OSCCON](image-4.png)
+![OSCCON](Imagenes/image-4.png)
 
-![OSCCON bits](image-5.png)
+![OSCCON bits](Imagenes/image-5.png)
 
 * El oscilador secundario es un cristal externo de baja potencia (32 kHz a 100 kHz) 
 * El reloj primario son osciladores externos, resonadores de cristal de cuarzo, resonadores cerámicos y circuitos Resistencia-Capacitor (RC).
@@ -58,17 +58,17 @@ Es un registro que permite configurar la fuente de oscilador del PIC 18F45K22.
 
 Son registros internos de los microcontroladores, con los cuales cada puerto puede ser configurado de diferente forma, deseando el tipo de conexión (entrada o salida). Por tanto, cada puerto tiene tres registros para su operación, TRIS (1=entrada / 0=salida), LAT y PORT; sin embargo, se debe configurar inicialmente el registro ANSEL, que es el que controla los pines como análogos (1) o digitales (0).
 
-![TRIS, LAT y PORT](image-6.png)
+![TRIS, LAT y PORT](Imagenes/image-6.png)
 
 <h2>PIC Kit v3.0</h2>
 
 El PIC Kit v3.0 es un hardware que permite programar los microcontroladores de Microchip. Además, entre sus funciones está la depuración (debugging) del código.
 
-![PIC Kit v3.0](image-7.png)
+![PIC Kit v3.0](Imagenes/image-7.png)
 
 Fuente: Datasheet PIC Kit 3.0
 
-![Conexiones PIC y PIC Kit v3.0](image-8.png)
+![Conexiones PIC y PIC Kit v3.0](Imagenes/image-8.png)
 
 Fuente: Datasheet PIC Kit 3.0
 
