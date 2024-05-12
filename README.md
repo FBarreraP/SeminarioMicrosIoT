@@ -212,8 +212,12 @@ Nota del curso = (0.1)*Quices + (0.4)*Laboratorios y/o talleres + (0.5)*Proyecto
 <ul>
 	<li> Computador 💻</li>
 	<li> Matlab</li>
+	<li> MPLAB X con XC8</li>
+	<li> Proteus</li>
 	<li> PIC</li>
 	<img src="https://www.servotronik.com.co/wp-content/uploads/2019/07/PIC18F4550-1.jpg" alt="PIC18F4550" caption="Hola"/>
+	<li> PIC Kit</li>
+	<img src="" alt="PicKit" caption="Hola"/>
 	<li> Módulo WiFi</li>
 	<img src="" alt="WiFi" caption="Hola"/>
 	<li> Plataforma diferencial</li>
