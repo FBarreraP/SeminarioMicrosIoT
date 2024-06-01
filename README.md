@@ -236,7 +236,7 @@ Nota del curso = (0.1)*Quices + (0.4)*Laboratorios y/o talleres + (0.5)*Proyecto
     <li> Display LCD 16x2 o 16x4 o 20x2 o 20x4</li>
     <img src="https://cdn.awsli.com.br/400x400/468/468162/produto/19414377c73c1c655d.jpg" alt="lcd 16x2" caption="Hola"/>
     <li> Sensor infrarrojo/li>
-    <img src="" alt="sensor infrarrojo" caption="Hola"/>
+    <img src="image-3.png" alt="sensor infrarrojo" caption="Hola"/>
     <li> Puente H (L298/L293)</li>
     <img src="https://www.ardobot.co/pub/media/catalog/product/cache/2641e33458f1ae4a696b47b0da974426/l/2/l2998neco.jpg" alt="L298" caption="Hola"/>
 </ul>
