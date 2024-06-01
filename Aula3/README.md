@@ -10,9 +10,13 @@ Las pantallas gráficas de cristal líquido (GLCD) son monocromáticas. Consumen
 
 <h2>GLCD 128x64</h2>
 
+La GLCD KS0108 tiene 8192 bits (1024 bytes), a lo cual se debe tener en cuenta que cada bit es un led.
+
 ![GLCD 128x64](Imagenes/image-1.png)
 
 Fuente: https://www.electronicwings.com/pic/glcd-128x64-interfacing-with-pic18f4550-microcontroller
+
+Los pines de conexión de la GLCD KS0108 son de entradas y salidas, así mismo, son de potencia y control.
 
 ![Pinout GLCD](Imagenes/image-3.png)
 
@@ -20,11 +24,17 @@ Fuente: Fuente: https://www.pjrc.com/teensy/td_libs_GLCD.html
 
 ![Especificación de pines GLCD](Imagenes/image-2.png)
 
+La principal característica de todas las conexiones de la GLCD KS0108 con un microcontrolador es la conexión del potenciómetro, siendo que un pin del extremo se debe conectar a la alimentación del contraste (VEE).
+
 ![Conexiones PIC y GLCD](Imagenes/image-4.png)
+
+La GLCD KS0108 se divide en dos secciones o controladores, haciendo referencia al lado derecho e izquierdo. De igual manera, cada controlador se compone de 64x64 bits, siendo que se subdivide en 8 páginas o renglones o filas, donde en cada fila se tienen 64 vectores columna de 8 bits.
 
 ![CS1 y CS2 GLCD](Imagenes/image-5.png)
 
 Fuente: https://openlabpro.com/guide/ks0108-graphic-lcd-interfacing-with-pic18f4550-part-1/
+
+El direccionamiento en una coordenada específica en la GLCD KS0108 se realiza a través de la combinación de coordenadas tanto horizontal (Y) como vertical (X).
 
 ![Direccionamiento GLCD](Imagenes/image-6.png)
 
