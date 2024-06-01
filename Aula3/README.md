@@ -48,6 +48,8 @@ Fuente: https://www.electronicwings.com/sensors-modules/glcd-128x64
 
 <h3>Registros GLCD</h3>
 
+Los registros de la GLCD KS0108 se analizan desde el datasheet del fabricante para las diferentes instrucciones de uso de dicha pantalla.
+
 ![Registros GLCD](Imagenes/image-9.png)
 
 ```c
