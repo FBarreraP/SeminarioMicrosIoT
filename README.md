@@ -216,7 +216,7 @@ Nota del curso = (0.1)*Quices + (0.4)*Laboratorios y/o talleres + (0.5)*Proyecto
 	<li> MPLAB X con XC8</li>
 	<li> Proteus</li>
 	<li> PIC</li>
-	<img src="https://www.microchip.com/content/dam/mchp/mrt-dam/ic-images/pdip/40-lead-s2x/PIC18F45K22-S2X-Regular.jpg" alt="PIC18F45K22" caption="Hola"/>
+	<img src="image-1.png" alt="PIC18F45K22" caption="Hola"/>
 	<li> PIC Kit</li>
 	<img src="image.png" alt="PicKit" caption="Hola"/>	
 	<li> Módulo WiFi</li>
