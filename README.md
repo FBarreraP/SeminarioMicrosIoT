@@ -235,7 +235,7 @@ Nota del curso = (0.1)*Quices + (0.4)*Laboratorios y/o talleres + (0.5)*Proyecto
     <img src="https://curtocircuito.com.br/pub/media/catalog/product/cache/ebf77fb58d795a2dbe3218c301c821c6/p/o/potenci_metro_linear_-_1m_-_l20_2_.jpg" alt="potenciometro" caption="Hola"/>
     <li> Display LCD 16x2 o 16x4 o 20x2 o 20x4</li>
     <img src="https://cdn.awsli.com.br/400x400/468/468162/produto/19414377c73c1c655d.jpg" alt="lcd 16x2" caption="Hola"/>
-    <li> Sensor infrarrojo/li>
+    <li> Sensor infrarrojo</li>
     <img src="image-3.png" alt="sensor infrarrojo" caption="Hola"/>
     <li> Puente H (L298/L293)</li>
     <img src="https://www.ardobot.co/pub/media/catalog/product/cache/2641e33458f1ae4a696b47b0da974426/l/2/l2998neco.jpg" alt="L298" caption="Hola"/>
