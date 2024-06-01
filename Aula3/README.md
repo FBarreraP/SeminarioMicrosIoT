@@ -16,7 +16,7 @@ La GLCD KS0108 tiene 8192 bits (1024 bytes), a lo cual se debe tener en cuenta q
 
 Fuente: https://www.electronicwings.com/pic/glcd-128x64-interfacing-with-pic18f4550-microcontroller
 
-Los pines de conexión de la GLCD KS0108 son de entradas y salidas, así mismo, son de potencia y control.
+Los pines de conexión de la GLCD KS0108 son de entradas y/o salidas, así mismo, algunos pines son de potencia o control.
 
 ![Pinout GLCD](Imagenes/image-3.png)
 
@@ -48,7 +48,7 @@ Fuente: https://www.electronicwings.com/sensors-modules/glcd-128x64
 
 <h3>Registros GLCD</h3>
 
-Los registros de la GLCD KS0108 se analizan desde el datasheet del fabricante para las diferentes instrucciones de uso de dicha pantalla.
+Los registros de la GLCD KS0108 se analizan desde el datasheet del fabricante para las diferentes instrucciones de uso de dicha pantalla, teniendo en cuenta principalmente el pin RS y R/W.
 
 ![Registros GLCD](Imagenes/image-9.png)
 
