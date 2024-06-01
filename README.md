@@ -216,11 +216,11 @@ Nota del curso = (0.1)*Quices + (0.4)*Laboratorios y/o talleres + (0.5)*Proyecto
 	<li> MPLAB X con XC8</li>
 	<li> Proteus</li>
 	<li> PIC</li>
-	<img src="image-1.png" alt="PIC18F45K22" caption="Hola"/>
+	<img src="Imagenes/image-1.png" alt="PIC18F45K22" caption="Hola"/>
 	<li> PIC Kit</li>
-	<img src="image.png" alt="PicKit" caption="Hola"/>	
+	<img src="Imagenes/image.png" alt="PicKit" caption="Hola"/>	
 	<li> Módulo WiFi (ESP8266 Nodemcu V3)</li>
-	<img src="image-2.png" alt="WiFi" caption="Hola"/>
+	<img src="Imagenes/image-2.png" alt="WiFi" caption="Hola"/>
 	<li> Plataforma diferencial</li>
     <img src="https://down-id.img.susercontent.com/file/4707898d5ce46da11955f0269f3f5468" alt="plataforma diferencial" caption="Hola"/>
 	 <li> Motoreductor DC</li>
@@ -236,7 +236,7 @@ Nota del curso = (0.1)*Quices + (0.4)*Laboratorios y/o talleres + (0.5)*Proyecto
     <li> Display LCD 16x2 o 16x4 o 20x2 o 20x4</li>
     <img src="https://cdn.awsli.com.br/400x400/468/468162/produto/19414377c73c1c655d.jpg" alt="lcd 16x2" caption="Hola"/>
     <li> Sensor infrarrojo</li>
-    <img src="image-3.png" alt="sensor infrarrojo" caption="Hola"/>
+    <img src="Imagenes/image-3.png" alt="sensor infrarrojo" caption="Hola"/>
     <li> Puente H (L298/L293)</li>
     <img src="https://www.ardobot.co/pub/media/catalog/product/cache/2641e33458f1ae4a696b47b0da974426/l/2/l2998neco.jpg" alt="L298" caption="Hola"/>
 </ul>
