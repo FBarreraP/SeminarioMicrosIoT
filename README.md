@@ -219,8 +219,8 @@ Nota del curso = (0.1)*Quices + (0.4)*Laboratorios y/o talleres + (0.5)*Proyecto
 	<img src="image-1.png" alt="PIC18F45K22" caption="Hola"/>
 	<li> PIC Kit</li>
 	<img src="image.png" alt="PicKit" caption="Hola"/>	
-	<li> Módulo WiFi</li>
-	<img src="" alt="WiFi" caption="Hola"/>
+	<li> Módulo WiFi (ESP8266 Nodemcu V3)</li>
+	<img src="image-2.png" alt="WiFi" caption="Hola"/>
 	<li> Plataforma diferencial</li>
     <img src="https://down-id.img.susercontent.com/file/4707898d5ce46da11955f0269f3f5468" alt="plataforma diferencial" caption="Hola"/>
 	 <li> Motoreductor DC</li>
