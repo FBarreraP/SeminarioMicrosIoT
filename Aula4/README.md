@@ -103,7 +103,7 @@ OERR (bit 1) = El receptor tiene datos entrantes pero el buffer de datos de rece
 
 Utilizar dos PIC 18F45K22, uno para realizar el contador de dos pulsos, a través de interrupciones externas y posteriormente enviar dichos datos a través de comunicación serial al otro PIC, en el cual se debe visualizar la información recibida en una pantalla LCD.
 
-PIC transmisor 
+<h4>PIC transmisor</h4>
 
 ```c
 #include <xc.h>
@@ -177,7 +177,7 @@ void __interrupt() Tx(void){
 }
 ```
 
-PIC receptor 
+<h4>PIC receptor</h4>
 
 ```c
 #include <xc.h>
@@ -293,7 +293,7 @@ void __interrupt() RECEIVE(void){
 
 Utilizar un PIC 18F45K22 para realizar adquisición y conversión de datos análogos a digitales de un potenciómetro y un LM35, y enviar dichos datos a través de comunicación serial con otro PIC 18F45K22 en donde se deben visualizar en una pantalla LCD. Además, visualizar los datos en tiempo real en Matlab.
 
-PIC transmisor 
+<h4>PIC transmisor</h4>
 
 ```c
 #include <xc.h>
@@ -365,7 +365,7 @@ void start(void){
 }
 ```
 
-PIC receptor 
+<h4>PIC receptor</h4>
 
 ```c
 #include <xc.h>
