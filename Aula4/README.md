@@ -6,7 +6,7 @@ Esta clase consiste en entender la comunicación serial UART.
 
 La comunicación serial (simplex, half o full duplex) permite transmitir y/o recibir datos bit a bit, punto a punto (microcontroladores, PC, sistema embebido) de forma asíncrona (UART) o síncrona (USART). 
 
-![Comunicaciones](image.png)
+![Comunicaciones](Imagenes/image.png)
 
 Fuente: http://tutosrafaz.blogspot.com/2015/06/comunicacion-serial-rs232-pic16f887a.html
 
@@ -14,25 +14,25 @@ Fuente: http://tutosrafaz.blogspot.com/2015/06/comunicacion-serial-rs232-pic16f8
 
 El modo simplex
 
-![alt text](image-2.png)
+![Simplex](Imagenes/image-2.png)
 
 El modo half duplex
 
-![Half Duplex](image-3.png)
+![Half Duplex](Imagenes/image-3.png)
 
 El modo full duplex
 
-![Full Duplex](image-4.png)
+![Full Duplex](Imagenes/image-4.png)
 
 <h3>Trama de comunicación UART</h3>
 
 RS232 y RS485 son dos comunicaciones seriales de tipo asíncrona (UART), las cuales tienen el estándar de transmisión serie que define la trama más conocida como 8N1 (8 bits de datos, Ninguno de paridad y 1 bit de stop).
 
-![Ejemplo](image-5.png)
+![Ejemplo](Imagenes/image-5.png)
 
 Fuente: https://github.com/Obijuan/open-fpga-verilog-tutorial/wiki/Cap%C3%ADtulo-21:-Baudios-y-transmisi%C3%B3n
 
-![Trama UART](image-1.png)
+![Trama UART](Imagenes/image-1.png)
 
 Fuente: https://github.com/Obijuan/open-fpga-verilog-tutorial/wiki/Cap%C3%ADtulo-21:-Baudios-y-transmisi%C3%B3n
 
@@ -46,13 +46,13 @@ $$T_b=104.167 \mu s$$
 
 El conversor de USB a TTL (FTDI), puede alimentar +5V del PIC puede conectarse a una fuente externa o a los +5V del FTDI
 
-![FTDI](image-6.png)
+![FTDI](Imagenes/image-6.png)
 
 https://deepbluembedded.com/usb-ttl-converter-tutorial-pc-control-for-microcontrollers/
 
 <h3>HC-05</h3>
 
-![alt text](image-7.png)
+![alt text](Imagenes/image-7.png)
 
 https://deepbluembedded.com/usb-ttl-converter-tutorial-pc-control-for-microcontrollers/
 
@@ -60,7 +60,7 @@ https://deepbluembedded.com/usb-ttl-converter-tutorial-pc-control-for-microcontr
 
 Es un protocolo de comunicación que consiste en una salida y una entrada de datos, TX (Transmisión) y RX (Recepción), respectivamente. El PIC 18F45K22 tiene dos canales de comunicación EUSART. TXREGx y RCREGx son registros del modulo EUSART del PIC 18F45K22 para cargar el byte a transmitir y para guardar el byte recibido, respectivamente.
 
-![Pines UART PIC](image-8.png)
+![Pines UART PIC](Imagenes/image-8.png)
 
 Para configurar la comunicación serial en el PIC18F45K22 es necesario tener en cuenta los siguientes pasos:
 
@@ -82,22 +82,22 @@ $$𝑆𝑃𝐵𝑅𝐺𝑥=\frac{𝐹_{𝑂𝑆𝐶}}{𝐷𝑒𝑠𝑖𝑟𝑒�
 
 Es el registro de la comunicación UART del PIC 18F45K22 que permite configurar la recepción de datos.
 
-![RCSTAx](image-9.png)
+![RCSTAx](Imagenes/image-9.png)
 
-![bits RCSTAx](image-10.png)
+![bits RCSTAx](Imagenes/image-10.png)
 
 FERR (bit 2) = Es un error en la trama de datos, donde el receptor no detecta el bit de stop <br>
 OERR (bit 1) = El receptor tiene datos entrantes pero el buffer de datos de recepción (RCREG) no se ha limpiado
 
 <h4>Paso 5 - Registro TXSTAx</h4>
 
-![TXSTAx](image-11.png)
+![TXSTAx](Imagenes/image-11.png)
 
-![bits TXSTAx](image-12.png)
+![bits TXSTAx](Imagenes/image-12.png)
 
 <h4>Registro PIR1</h4>
 
-![PIR1](image-13.png)
+![PIR1](Imagenes/image-13.png)
 
 <h3>Ejemplo 1</h3>
 
