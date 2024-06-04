@@ -12,9 +12,15 @@ Fuente: http://tutosrafaz.blogspot.com/2015/06/comunicacion-serial-rs232-pic16f8
 
 <h3>Tipos de comunicación serial</h3>
 
+El modo simplex
+
 ![Simplex](image-2.png)
 
+El modo half duplex
+
 ![Half Duplex](image-1.png)
+
+El modo full duplex
 
 ![Full Duplex](image-3.png)
 
