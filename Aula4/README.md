@@ -103,9 +103,372 @@ OERR (bit 1) = El receptor tiene datos entrantes pero el buffer de datos de rece
 
 Utilizar dos PIC 18F45K22, uno para realizar el contador de dos pulsos, a través de interrupciones externas y posteriormente enviar dichos datos a través de comunicación serial al otro PIC, en el cual se debe visualizar la información recibida en una pantalla LCD.
 
+PIC transmisor 
+
+```c
+#include <xc.h>
+#include <stdio.h>
+#include <string.h>
+
+#pragma config FOSC = INTIO67
+#pragma config WDTEN = OFF
+#pragma config LVP = OFF
+
+#define _XTAL_FREQ 16000000
+#define time 100
+
+void settings(void);
+void __interrupt() Tx(void);
+
+unsigned char i,k=0,j=0;
+char text[20];
+
+void main(void) {
+    settings();
+    while(1){
+        
+    }
+}
+
+void settings(void){
+    OSCCON = 0x72;
+    ANSELB = 0x00;
+    ANSELC = 0x00;
+    TRISB = 0x06;
+    //Serial UART
+    TRISCbits.TRISC6 = 0;
+    TRISCbits.TRISC7 = 1;
+    SPBRG1 = 0x19;
+    RCSTA1 = 0x90;
+    TXSTA1 = 0x20;
+    //Interrupción externa
+    GIE = 1;
+    INT2IE = 1;
+    INT1IE = 1;
+    INT2IF = 0;
+    INT1IF = 0;
+    INTEDG2 = 1;
+    INTEDG1 = 0;
+}
+
+void __interrupt() Tx(void){
+    if(INT2IF == 1){
+        INT2IF = 0;
+        k++;
+        sprintf(text,"B) Int.2: %d\n",k);
+        for(i=0; i<=strlen(text); i++){
+            while(TX1IF == 0);
+            TXREG1 = text[i];
+        }
+        while(TX1IF == 0);
+        TXREG1 = 0x0D;//Retorno de carro
+    }
+    if(INT1IF == 1){
+        INT1IF = 0;
+        j++;
+        sprintf(text,"A) Int.1: %d\n",j);
+        for(i=0; i<=strlen(text); i++){
+            while(TX1IF == 0);
+            TXREG1 = text[i];
+        }
+        while(TX1IF == 0);
+        TXREG1 = 0x0D;//Retorno de carro
+    }
+}
+```
+
+PIC receptor 
+
+```c
+#include <xc.h>
+
+#pragma config FOSC = INTIO67
+#pragma config WDTEN = OFF
+#pragma config LVP = OFF
+
+#define _XTAL_FREQ 16000000
+#define time 10
+//LCD
+#define CD 0x01 //Clear Display
+#define RH 0x02 //(0x03) Return Home
+#define EMS 0x06 //Entry Mode Set
+#define DC 0x0F //(0x0E) Display Control
+#define DSr 0x1C //Display Shift Rigth
+#define DSl 0x18 //Display Shift Left
+#define FS 0x28 //(0x3C) Function Set
+#define RAW1 0x80 //DDRAM display
+#define RAW2 0xC0 //DDRAM display
+#define RS LATE1 //Register Selection
+#define E LATE0 //Enable
+
+void settings(void);
+void __interrupt() RECEIVE(void);
+//LCD
+void SettingsLCD(unsigned char word);
+void WriteLCD(unsigned char word);
+void LCD(unsigned char data);
+
+void main(void) {
+    settings();
+    while(1){
+        
+    }
+}
+
+void SettingsLCD(unsigned char word){
+    RS = 0;
+    LCD(word >> 4); // 4 MSB
+    LCD(word & 0x0F); // 4 LSB
+}
+
+void WriteLCD(unsigned char word){
+    RS = 1;
+    LCD(word >> 4);
+    LCD(word & 0x0F);
+}
+
+void LCD(unsigned char data){ //Opción bits
+    E = 1;
+    __delay_us(time*5);
+    LATDbits.LATD0 = (data & 0x01);
+    __delay_us(time*5);
+    LATDbits.LATD1 = (data & 0x02) >> 1;
+    __delay_us(time*5);
+    LATDbits.LATD2 = (data & 0x04) >> 2;
+    __delay_us(time*5);
+    LATDbits.LATD3 = (data & 0x08) >> 3;
+    __delay_us(time*5);
+    E = 0;
+    __delay_us(time*5);
+}
+
+void settings(void){
+    OSCCON = 0x72;
+    ANSELC = 0x00;
+    ANSELD = 0x00;
+    ANSELE = 0x00;
+    TRISD = 0;
+    TRISE = 0;
+    LATD = 0;
+    LATE = 0;
+    //LCD
+    SettingsLCD(0x02); //Iniciar la LCD con el método nibble (4 MSB y 4 LSB)
+    SettingsLCD(EMS);
+    SettingsLCD(DC);
+    SettingsLCD(FS);
+    SettingsLCD(CD);
+    //Serial UART
+    TRISCbits.TRISC6 = 0;
+    TRISCbits.TRISC7 = 1;
+    SPBRG = 0x19;
+    RCSTA = 0x90;
+    TXSTA = 0x20;
+    //Interrupción
+    GIE = 1;
+    PEIE = 1;
+    RC1IE = 1;
+    RC1IF = 0;
+}
+
+void __interrupt() RECEIVE(void){
+    unsigned char d;
+    if(RC1IF == 1){
+        d = RCREG;
+        if(d == 0x41){
+            SettingsLCD(RAW1);
+            WriteLCD(d);
+        }else if(d == 'B'){
+            SettingsLCD(RAW2);
+            WriteLCD(d);
+        }else if(d == 0x0D){
+            SettingsLCD(RH);
+        }else{
+            WriteLCD(d);
+        }
+    }    
+}
+```
+
 <h3>Ejemplo 2</h3>
 
 Utilizar un PIC 18F45K22 para realizar adquisición y conversión de datos análogos a digitales de un potenciómetro y un LM35, y enviar dichos datos a través de comunicación serial con otro PIC 18F45K22 en donde se deben visualizar en una pantalla LCD. Además, visualizar los datos en tiempo real en Matlab.
+
+PIC transmisor 
+
+```c
+#include <xc.h>
+#include <stdio.h>
+#include <string.h>
+
+#pragma config FOSC = INTIO67
+#pragma config WDTEN = OFF
+#pragma config LVP = OFF
+
+#define _XTAL_FREQ 16000000
+#define time 100
+
+void settings(void);
+void start(void);
+
+int digital1, digital2;
+float conversion1, conversion2, temperature;
+unsigned char i;
+char text[20];
+
+void main(void) {
+    settings();
+    while(1){
+        start();
+    }
+}
+
+void settings(void){
+    OSCCON = 0x72;
+    ANSELA = 0x03;
+    ANSELC = 0x00;
+    TRISA = 0x03;
+    //ADC
+    ADCON0 = 0x01;
+    ADCON1 = 0x00;
+    ADCON2 = 0x95;
+    //Serial UART
+    TRISCbits.TRISC6 = 0;
+    TRISCbits.TRISC7 = 1;
+    SPBRG = 0x19;
+    RCSTA = 0x90;
+    TXSTA = 0x20;
+}
+
+void start(void){
+    ADCON0 = 0x01;
+    __delay_ms(time);
+    GO = 1;
+    while(GO == 1);
+    digital1 = ADRESH<<8|ADRESL;
+    conversion1 = (float)digital1 * (5.0/1023.0);
+    ADCON0 = 0x05;
+    __delay_ms(time);
+    GO = 1;
+    while(GO == 1);
+    digital2 = ADRESH<<8|ADRESL;
+    conversion2 = (float)digital2 * (5.0/1023.0);
+    temperature = conversion2 /0.01;
+    sprintf(text,"%.4f,%.4f\n",conversion1,temperature);
+    for(i=0; i<=strlen(text); i++){
+        while(TX1IF == 0);
+        TXREG = text[i];
+    }
+    //while(TXIF == 0);
+    //TXREG = 0x0A;//Salto de línea
+    while(TXIF == 0);
+    TXREG = 0x0D;//Retorno de carro
+}
+```
+
+PIC receptor 
+
+```c
+#include <xc.h>
+
+#pragma config FOSC = INTIO67
+#pragma config WDTEN = OFF
+#pragma config LVP = OFF
+
+#define _XTAL_FREQ 16000000
+#define time 10
+//LCD
+#define CD 0x01 //Clear Display
+#define RH 0x02 //(0x03) Return Home
+#define EMS 0x06 //Entry Mode Set
+#define DC 0x0F //(0x0E) Display Control
+#define DSr 0x1C //Display Shift Rigth
+#define DSl 0x18 //Display Shift Left
+#define FS 0x28 //(0x3C) Function Set
+#define RAW1 0x82 //DDRAM display
+#define RAW2 0xC4 //DDRAM display
+#define RS LATE1 //Register Selection
+#define E LATE0 //Enable
+
+void settings(void);
+void __interrupt() RECEIVE(void);
+//LCD
+void SettingsLCD(unsigned char word);
+void WriteLCD(unsigned char word);
+void LCD(unsigned char data);
+
+void main(void) {
+    settings();
+    while(1){
+        
+    }
+}
+
+void SettingsLCD(unsigned char word){
+    RS = 0;
+    LCD(word >> 4); // 4 MSB
+    LCD(word & 0x0F); // 4 LSB
+}
+
+void WriteLCD(unsigned char word){
+    RS = 1;
+    LCD(word >> 4);
+    LCD(word & 0x0F);
+}
+
+void LCD(unsigned char data){ //Opción bits
+    E = 1;
+    __delay_us(time*5);
+    LATDbits.LATD0 = (data & 0x01);
+    __delay_us(time*5);
+    LATDbits.LATD1 = (data & 0x02) >> 1;
+    __delay_us(time*5);
+    LATDbits.LATD2 = (data & 0x04) >> 2;
+    __delay_us(time*5);
+    LATDbits.LATD3 = (data & 0x08) >> 3;
+    __delay_us(time*5);
+    E = 0;
+    __delay_us(time*5);
+}
+
+void settings(void){
+    OSCCON = 0x72;
+    ANSELC = 0x00;
+    ANSELD = 0x00;
+    ANSELE = 0x00;
+    TRISD = 0;
+    TRISE = 0;
+    LATD = 0;
+    LATE = 0;
+    //LCD
+    SettingsLCD(0x02); //Iniciar la LCD con el método nibble (4 MSB y 4 LSB)
+    SettingsLCD(EMS);
+    SettingsLCD(DC);
+    SettingsLCD(FS);
+    SettingsLCD(CD);        
+    //Serial UART
+    TRISCbits.TRISC6 = 0;
+    TRISCbits.TRISC7 = 1;
+    SPBRG = 0x19;
+    RCSTA = 0x90;
+    TXSTA = 0x20;
+    //Interrupción
+    GIE = 1;
+    PEIE = 1;
+    RCIE = 1;
+    RCIF = 0;
+}
+
+void __interrupt() RECEIVE(void){
+    unsigned char d;
+    if(RCIF == 1){
+        d = RCREG;
+        WriteLCD(d);
+        if(d == 0x0D){
+            SettingsLCD(RH);
+        }
+    }    
+}
+```
 
 <h3>Ejercicio 1</h3>
 
