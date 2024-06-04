@@ -12,9 +12,17 @@ Fuente: http://tutosrafaz.blogspot.com/2015/06/comunicacion-serial-rs232-pic16f8
 
 <h3>Tipos de comunicación serial</h3>
 
-El modo simplex, half duplex y full duplex
+El modo simplex
 
-![Modos](image-2.png)
+![alt text](image-2.png)
+
+El modo half duplex
+
+![Half Duplex](image-3.png)
+
+El modo full duplex
+
+![Full Duplex](image-4.png)
 
 <h3>Trama de comunicación UART</h3>
 
