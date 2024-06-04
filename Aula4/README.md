@@ -70,3 +70,10 @@ Para configurar la comunicación serial en el PIC18F45K22 es necesario tener en 
 4. Configurar el registro de recepción (RCSTAx).
 5. Configurar el registro de transmisión (TXSTAx).
 
+<h4>Registro SPBRG</h4>
+
+Es un registro que permite configurar la velocidad de transmisión (baudios) de los datos en la comunicación serial.
+
+$$𝐷𝑒𝑠𝑖𝑟𝑒𝑑 𝐵𝑎𝑢𝑑 𝑅𝑎𝑡𝑒=\frac{𝐹_𝑂𝑆𝐶}{64 \cdot (𝑆𝑃𝐵𝑅𝐺+1)}$$
+
+$$𝑆𝑃𝐵𝑅𝐺𝑥=\frac{𝐹_𝑂𝑆𝐶}{𝐷𝑒𝑠𝑖𝑟𝑒𝑑 𝐵𝑎𝑢𝑑 𝑅𝑎𝑡𝑒 \cdot 64}−1 = \frac{16 𝑀𝐻𝑧}{9600 \cdot 64}-1=25_{10}=19_{16}$$
