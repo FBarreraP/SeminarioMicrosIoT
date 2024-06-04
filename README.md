@@ -125,16 +125,16 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
 	</tr>
 	<tr>
-		<td>24/06/2024</td> <td>2</td> <td>21</td> <td>11</td> <td>Desarrollo de laboratorios y proyecto</td>
+		<td>24/06/2024</td> <td>2</td> <td>21</td> <td>11</td> <td>Desarrollo de proyecto</td>
 	</tr>
 	<tr>
-		<td>24/06/2024</td> <td>2</td> <td>21</td> <td>11</td> <td>Desarrollo de laboratorios y proyecto</td>
+		<td>24/06/2024</td> <td>2</td> <td>21</td> <td>11</td> <td>Desarrollo de proyecto</td>
 	</tr>
 	<tr>
-		<td>25/06/2024</td> <td>2</td> <td>22</td> <td>11</td> <td>Desarrollo de laboratorios y proyecto</td>
+		<td>25/06/2024</td> <td>2</td> <td>22</td> <td>11</td> <td>Desarrollo de proyecto</td>
 	</tr>
 	<tr>
-		<td>25/06/2024</td> <td>2</td> <td>22</td> <td>11</td> <td>Desarrollo de laboratorios y proyecto</td>
+		<td>25/06/2024</td> <td>2</td> <td>22</td> <td>11</td> <td>Desarrollo de proyecto</td>
 	</tr>
 
 </table>
