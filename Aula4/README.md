@@ -86,7 +86,31 @@ Es el registro de la comunicación UART del PIC 18F45K22 que permite configurar 
 
 ![bits RCSTAx](image-10.png)
 
-FERR (bit 2) = Es un error en la trama de datos, donde el receptor no detecta el bit de stop
+FERR (bit 2) = Es un error en la trama de datos, donde el receptor no detecta el bit de stop <br>
 OERR (bit 1) = El receptor tiene datos entrantes pero el buffer de datos de recepción (RCREG) no se ha limpiado
 
 <h4>Paso 5 - Registro TXSTAx</h4>
+
+![TXSTAx](image-11.png)
+
+![bits TXSTAx](image-12.png)
+
+<h4>Registro PIR1</h4>
+
+![PIR1](image-13.png)
+
+<h3>Ejemplo 1</h3>
+
+Utilizar dos PIC 18F45K22, uno para realizar el contador de dos pulsos, a través de interrupciones externas y posteriormente enviar dichos datos a través de comunicación serial al otro PIC, en el cual se debe visualizar la información recibida en una pantalla LCD.
+
+<h3>Ejemplo 2</h3>
+
+Utilizar un PIC 18F45K22 para realizar adquisición y conversión de datos análogos a digitales de un potenciómetro y un LM35, y enviar dichos datos a través de comunicación serial con otro PIC 18F45K22 en donde se deben visualizar en una pantalla LCD. Además, visualizar los datos en tiempo real en Matlab.
+
+<h3>Ejercicio 1</h3>
+
+A partir del ejercicio 2, crear una interfaz gráfica en Matlab que permita monitorear los datos del voltaje del potenciómetro y de la temperatura del sensor LM35, a través de dos “push button” y graficar dichos datos en la interfaz.
+
+<h3>Ejercicio 2</h3>
+
+Utilizar un Bluetooth para ingresar una clave de 4 dígitos e indicar en una pantalla LCD si la clave fue exitosa o incorrecta
