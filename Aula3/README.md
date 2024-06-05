@@ -117,19 +117,11 @@ void settings(void) {
     LATD = 0;
     LATE = 0;
     //GLCD
-    SelectController(1,0);
+    SelectController(1,1);
     SettingsGLCD(D);
-    //SettingsGLCD(DSL);
+    SettingsGLCD(DSL);
     SettingsGLCD(SAy);
     SettingsGLCD(SAx);
-    SelectController(0,1);
-    SettingsGLCD(D);
-    //SettingsGLCD(DSL);
-    SettingsGLCD(SAy);
-    SettingsGLCD(SAx);
-    SelectController(1,0);
-    ClearGLCD();
-    SelectController(0,1);
     ClearGLCD();
 }
 
@@ -358,19 +350,11 @@ void settings(void) {
     LATD = 0;
     LATE = 0;
     //GLCD
-    SelectController(1,0);
+    SelectController(1,1);
     SettingsGLCD(D);
     SettingsGLCD(DSL);
     SettingsGLCD(SAy);
     SettingsGLCD(SAx);
-    SelectController(0,1);
-    SettingsGLCD(D);
-    SettingsGLCD(DSL);
-    SettingsGLCD(SAy);
-    SettingsGLCD(SAx);
-    SelectController(1,0);
-    ClearGLCD();
-    SelectController(0,1);
     ClearGLCD();
 }
 
@@ -691,19 +675,11 @@ void settings(void) {
     LATD = 0;
     LATE = 0;
     //GLCD
-    SelectController(1,0);
+    SelectController(1,1);
     SettingsGLCD(D);
     SettingsGLCD(DSL);
     SettingsGLCD(SAy);
     SettingsGLCD(SAx);
-    SelectController(0,1);
-    SettingsGLCD(D);
-    SettingsGLCD(DSL);
-    SettingsGLCD(SAy);
-    SettingsGLCD(SAx);
-    SelectController(1,0);
-    ClearGLCD();
-    SelectController(0,1);
     ClearGLCD();
 }
 
