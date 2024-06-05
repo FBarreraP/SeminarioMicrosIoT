@@ -64,7 +64,7 @@ Los registros de la GLCD KS0108 se analizan desde el datasheet del fabricante pa
 
 Utilizar una pantalla GLCD 128x64 para visualizar los ejemplos analizados anteriormente (> y P).
 
-![Ejemplo 1](Imagenes/image-12.png)
+![Ejemplo 1](image.png)
 
 ```c
 #include <xc.h>
@@ -190,7 +190,7 @@ Utilizar una pantalla GLCD 128x64 para escribir texto (palabras y números), ten
 
 ![Texto GLCD](Imagenes/image-10.png)
 
-![Ejemplo 2](Imagenes/image-13.png)
+![Ejemplo 2](image.png)
 
 ```c
 #include <xc.h>
@@ -478,7 +478,7 @@ Algunas imágenes deben ser redimensionadas para su posterior conversión a bits
 1. Pasar a .bmp monocromático
 2. Redimensionar la imagen a pixeles 62x64
 
-![Ejemplo 3](Imagenes/image-14.png)
+![Ejemplo 3](image.png)
 
 ```c
 #include <xc.h>
