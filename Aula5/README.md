@@ -528,12 +528,3 @@ end
 % Fecha a comunicacao serial
 fclose(s);
 ```
-
-
-<h3>Ejercicio 1</h3>
-
-A partir del ejercicio 2, crear una interfaz gráfica en Matlab que permita monitorear los datos del voltaje del potenciómetro y de la temperatura del sensor LM35, a través de dos “push button” y graficar dichos datos en la interfaz.
-
-<h3>Ejercicio 2</h3>
-
-Utilizar un Bluetooth para ingresar una clave de 4 dígitos e indicar en una pantalla LCD si la clave fue exitosa o incorrecta
