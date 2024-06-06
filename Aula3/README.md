@@ -469,7 +469,7 @@ void WritePage2(void){
 
 <h3>Ejemplo 3</h3>
 
-Utilizar una pantalla GLCD 128x64 para visualizar una Imagenes/imagen, utilizando el software Imagenes/image2GLCD.
+Utilizar una pantalla GLCD 128x64 para visualizar una imagen, utilizando el software Imagenes/image2GLCD.
 
 ![Imagenes/imagen GLCD](Imagenes/image-11.png)
 
