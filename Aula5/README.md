@@ -295,6 +295,8 @@ void __interrupt() RECEIVE(void){
 
 Utilizar un PIC 18F45K22 para realizar adquisición y conversión de datos análogos a digitales de un potenciómetro y un LM35, y enviar dichos datos a través de comunicación serial con otro PIC 18F45K22 en donde se deben visualizar en una pantalla LCD. Además, visualizar los datos en tiempo real en Matlab.
 
+![Ejemplo 2](Imagenes/image-15.png)
+
 <h4>PIC transmisor</h4>
 
 ```c
