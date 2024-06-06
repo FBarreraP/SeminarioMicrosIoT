@@ -474,8 +474,6 @@ void __interrupt() RECEIVE(void){
 }
 ```
 
-![Ejemplo 2 Matlab](image.png)
-
 <h4>MATLAB</h4>
 
 ```matlab
