@@ -474,6 +474,62 @@ void __interrupt() RECEIVE(void){
 }
 ```
 
+<h4>MATLAB</h4>
+
+```matlab
+% Limpa o Matlab
+clc
+clear all
+close all
+% Elimina os resquícios presentes na porta serial
+oldobj = instrfind;
+if ~isempty(oldobj)
+    fclose(oldobj);     
+    delete(oldobj);
+end
+% Cria a porta serial
+%s = serial('COM2','BaudRate',9600,'DataBits',8,'Parity','None','StopBits',1);
+if ~exist('s','var')
+    s = serial('COM2','BaudRate',9600,'DataBits',8,'Parity','None','StopBits',1);
+%     s = serial('COM2','BaudRate',9600);
+end
+% Apertura da comunicação serial
+if strcmp(get(s,'status'),'closed')
+    fopen(s);
+end
+tic
+% Apaga os dados iniciais
+t_ini = toc; t = 0; 
+while (t < 1) 
+    fscanf(s);
+    t = toc - t_ini;
+end
+% Leitura de um string
+% a=fread(s,1);
+%plot
+figure(1);
+fig1 = newplot;
+figure(2);
+fig2 = newplot;
+i=1;
+while 1
+    a = fscanf(s);
+    %str(i) = {a};
+    temp = cellfun(@str2num,strsplit(a,','));%temp = eval(['[',str{i},']']);
+    values(i,:) = temp;
+    plot(fig1,values(:,1));
+    plot(fig2,values(:,2));
+    pause(0.000001);
+    i=i+1;
+    if i == 1001
+        break
+    end
+end
+% Fecha a comunicacao serial
+fclose(s);
+```
+
+
 <h3>Ejercicio 1</h3>
 
 A partir del ejercicio 2, crear una interfaz gráfica en Matlab que permita monitorear los datos del voltaje del potenciómetro y de la temperatura del sensor LM35, a través de dos “push button” y graficar dichos datos en la interfaz.
