@@ -44,8 +44,4 @@ Para configurar la comunicación SPI en el PIC18F45K22 es necesario tener en cue
 
 ![SSPxCON1 2](image-7.png)
 
-<h4>SSPxCON2</h4>
 
-![SSPxCON1 1]
-
-![SSPxCON2 2](image-8.png)
