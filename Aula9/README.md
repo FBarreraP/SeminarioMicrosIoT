@@ -44,4 +44,32 @@ Para configurar la comunicación SPI en el PIC18F45K22 es necesario tener en cue
 
 ![SSPxCON1 2](image-7.png)
 
+<h4>PIR1</h4>
+
+![PIR1](image-9.png)
+
+![SSP1IF](image-10.png)
+
+<h3>Ejemplo 1</h3>
+
+Escribir y leer datos en una memoria EEPROM de 512 bytes (25LC04) a través de SPI.
+
+<h4>EEPROM 25LC04</h4>
+
+Capacidad de 4096bits (512bytes) <br>
+2 bloques de 256 registros, cada registro es 1 byte (8 bits) <br>
+Más que 1 millón de ciclos de borrado/escritura <br>
+
+![EEPROM 25LC04](image-11.png)
+
+![Registros EEPROM 25LC04](image-12.png)
+
+WRITE EEPROM 25LC04
+
+![WRITE EEPROM 25LC04](image-13.png)
+
+READ EEPROM 25LC04
+
+![READ EEPROM 25LC04](image-14.png)
+
 
