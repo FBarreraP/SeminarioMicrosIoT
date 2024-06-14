@@ -18,7 +18,7 @@ Fuente: https://vidaembebida.wordpress.com/2017/02/08/protocolo-de-comunicacion-
 
 Fuente: https://controlautomaticoeducacion.com/microcontroladores-pic/comunicacion-spi/
 
-<h2>SPI en el PIC 18F45K22</h2>
+<h3>SPI en el PIC 18F45K22</h3>
 
 La comunicación SPI es realizada a través de los pines SCKx (RC3 y/o RD0), SDIx (RC4 y/o RD1), SDOx (RC5 y/o RD4) y SS del PIC 18F45K22 para la recepción y transmisión de datos, y habilitación del esclavo síncronamente.
 
@@ -30,4 +30,22 @@ Para configurar la comunicación SPI en el PIC18F45K22 es necesario tener en cue
 2. Configurar el registro SSPxSTAT 
 3. Habilitar la comunicación SPI y el modo maestro a través del bit SSPEN del registro SSPxCON1
 
+![Modos configuración SPI](image-3.png)
 
+<h4>SSPxSTAT</h4>
+
+![SSPxSTAT 1](image-4.png)
+
+![SSPxSTAT 2](image-5.png)
+
+<h4>SSPxCON1</h4>
+
+![SSPxCON1 1](image-6.png)
+
+![SSPxCON1 2](image-7.png)
+
+<h4>SSPxCON2</h4>
+
+![SSPxCON1 1]
+
+![SSPxCON2 2](image-8.png)
