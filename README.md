@@ -44,7 +44,7 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td>28/11/2024</td> <td>2</td> <td>8</td> <td>4</td> <td>Ejemplo IoT</td>
 	</tr>
 	<tr>
-		<td>29/11/2024</td> <td>2</td> <td>9</td> <td>5</td> <td rowspan="2">Presencial</td>
+		<td>29/11/2024</td> <td>2</td> <td>9</td> <td>5</td> <td rowspan="2">Reunión ECCI</td>
 	</tr>
     <tr>
 		<td>29/11/2024</td> <td>2</td> <td>10</td> <td>5</td>
