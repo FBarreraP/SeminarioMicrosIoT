@@ -20,28 +20,34 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
 	</tr>
 	<tr>
-		<td>04/06/2024</td> <td>2</td> <td>1</td> <td>1</td> <td>Presentación del seminario</td>
+		<td>25/11/2024</td> <td>2</td> <td>1</td> <td>1</td> <td>Presentación del seminario</td>
 	</tr>
     <tr>
-		<td>04/06/2024</td> <td>2</td> <td>2</td> <td>1</td> <td>Introducción PIC 18F45K22</td>
+		<td>25/11/2024</td> <td>2</td> <td>2</td> <td>1</td> <td>Introducción PIC 18F45K22</td>
 	</tr>
 	<tr>
-		<td>05/06/2024</td> <td>2</td> <td>3</td> <td>2</td> <td>GLCD</td>
+		<td>26/11/2024</td> <td>2</td> <td>3</td> <td>2</td> <td>GLCD</td>
 	</tr>
 	<tr>
-		<td>05/06/2024</td> <td>2</td> <td>4</td> <td>2</td> <td>Ejemplo GLCD</td>
+		<td>26/11/2024</td> <td>2</td> <td>4</td> <td>2</td> <td>Ejemplo GLCD</td>
 	</tr>
 	<tr>
-		<td>06/06/2024</td> <td>2</td> <td>5</td> <td>3</td> <td>UART</td>
+		<td>27/11/2024</td> <td>2</td> <td>5</td> <td>3</td> <td>UART</td>
 	</tr>
 	<tr>
-		<td>06/06/2024</td> <td>2</td> <td>6</td> <td>3</td> <td>Ejemplos UART</td>
+		<td>27/11/2024</td> <td>2</td> <td>6</td> <td>3</td> <td>Ejemplos UART</td>
 	</tr>
     <tr>
-		<td>07/06/2024</td> <td>2</td> <td>7</td> <td>4</td> <td>IoT</td>
+		<td>28/11/2024</td> <td>2</td> <td>7</td> <td>4</td> <td>IoT</td>
 	</tr>
     <tr>
-		<td>07/06/2024</td> <td>2</td> <td>8</td> <td>4</td> <td>Ejemplo IoT</td>
+		<td>28/11/2024</td> <td>2</td> <td>8</td> <td>4</td> <td>Ejemplo IoT</td>
+	</tr>
+	<tr>
+		<td>29/11/2024</td> <td>2</td> <td>9</td> <td>5</td> <td rowspan="2">Presencial</td>
+	</tr>
+    <tr>
+		<td>29/11/2024</td> <td>2</td> <td>10</td> <td>5</td>
 	</tr>
 
 </table>
@@ -53,28 +59,34 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
 	</tr>
 	<tr>
-		<td>11/06/2024</td> <td>2</td> <td>11</td> <td>6</td> <td>Desarrollo de laboratorios y proyecto</td>
+		<td>02/11/2024</td> <td>2</td> <td>11</td> <td>6</td> <td rowspan="10">Desarrollo de laboratorios y proyecto</td>
 	</tr>
 	<tr>
-		<td>11/06/2024</td> <td>2</td> <td>12</td> <td>6</td> <td>Desarrollo de laboratorios y proyecto</td>
+		<td>02/11/2024</td> <td>2</td> <td>12</td> <td>6</td> 
 	</tr>
 	<tr>
-		<td>12/06/2024</td> <td>2</td> <td>13</td> <td>7</td> <td>Desarrollo de laboratorios y proyecto</td>
+		<td>03/11/2024</td> <td>2</td> <td>13</td> <td>7</td> 
 	</tr>
 	<tr>
-		<td>12/06/2024</td> <td>2</td> <td>14</td> <td>7</td> <td>Desarrollo de laboratorios y proyecto</td>
+		<td>03/11/2024</td> <td>2</td> <td>14</td> <td>7</td> 
 	</tr>
 	<tr>
-		<td>13/06/2024</td> <td>2</td> <td>15</td> <td>8</td> <td>Desarrollo de laboratorios y proyecto</td>
+		<td>04/11/2024</td> <td>2</td> <td>15</td> <td>8</td> 
 	</tr>
     <tr>
-		<td>13/06/2024</td> <td>2</td> <td>16</td> <td>8</td> <td>Desarrollo de laboratorios y proyecto</td>
+		<td>04/11/2024</td> <td>2</td> <td>16</td> <td>8</td> 
 	</tr>
     <tr>
-		<td>14/06/2024</td> <td>2</td> <td>17</td> <td>9</td> <td>Desarrollo de laboratorios y proyecto</td>
+		<td>05/11/2024</td> <td>2</td> <td>17</td> <td>9</td> 
 	</tr>
     <tr>
-		<td>14/06/2024</td> <td>2</td> <td>18</td> <td>9</td> <td>Desarrollo de laboratorios y proyecto</td>
+		<td>05/11/2024</td> <td>2</td> <td>18</td> <td>9</td> 
+	</tr>
+	<tr>
+		<td>06/11/2024</td> <td>2</td> <td>17</td> <td>9</td> 
+	</tr>
+    <tr>
+		<td>06/11/2024</td> <td>2</td> <td>18</td> <td>9</td> 
 	</tr>
 
 </table>
@@ -86,55 +98,34 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
 	</tr>
 	<tr>
-		<td>17/06/2024</td> <td>2</td> <td>21</td> <td>11</td> <td>Desarrollo de laboratorios y proyecto</td>
+		<td>09/11/2024</td> <td>2</td> <td>21</td> <td>11</td> <td rowspan="10">Desarrollo de laboratorios y proyecto</td>
 	</tr>
 	<tr>
-		<td>17/06/2024</td> <td>2</td> <td>22</td> <td>11</td> <td>Desarrollo de laboratorios y proyecto</td>
+		<td>09/11/2024</td> <td>2</td> <td>22</td> <td>11</td> 
 	</tr>
 	<tr>
-		<td>18/06/2024</td> <td>2</td> <td>23</td> <td>12</td> <td>Desarrollo de laboratorios y proyecto</td>
+		<td>10/11/2024</td> <td>2</td> <td>23</td> <td>12</td> 
 	</tr>
 	<tr>
-		<td>18/06/2024</td> <td>2</td> <td>24</td> <td>12</td> <td>Desarrollo de laboratorios y proyecto</td>
+		<td>10/11/2024</td> <td>2</td> <td>24</td> <td>12</td> 
 	</tr><!--Finalización de clases-->
 	<tr>
-		<td>19/06/2024</td> <td>2</td> <td>25</td> <td>13</td> <td>Desarrollo de laboratorios y proyecto</td>
+		<td>11/11/2024</td> <td>2</td> <td>25</td> <td>13</td> 
 	</tr>
     <tr>
-		<td>19/06/2024</td> <td>2</td> <td>26</td> <td>13</td> <td>Desarrollo de laboratorios y proyecto</td>
+		<td>11/11/2024</td> <td>2</td> <td>26</td> <td>13</td> 
 	</tr>
     <tr>
-		<td>20/06/2024</td> <td>2</td> <td>27</td> <td>14</td> <td>Desarrollo de Laboratorios y proyecto</td>
+		<td>12/11/2024</td> <td>2</td> <td>27</td> <td>14</td> 
 	</tr>
     <tr>
-		<td>20/06/2024</td> <td>2</td> <td>28</td> <td>14</td> <td>Desarrollo de laboratorios y proyecto</td>
+		<td>12/11/2024</td> <td>2</td> <td>28</td> <td>14</td> 
 	</tr>
     <tr>
-		<td>21/06/2024</td> <td>2</td> <td>29</td> <td>15</td> <td>Desarrollo de Laboratorios y proyecto</td>
+		<td>13/11/2024</td> <td>2</td> <td>29</td> <td>15</td>
 	</tr>
     <tr>
-		<td>21/06/2024</td> <td>2</td> <td>30</td> <td>15</td> <td>Desarrollo de Laboratorios y proyecto</td>
-	</tr>
-
-</table>
-
-<h4>Cuarta semana</h4>
-
-<table>
-	<tr>
-		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
-	</tr>
-	<tr>
-		<td>24/06/2024</td> <td>2</td> <td>21</td> <td>11</td> <td>Desarrollo de proyecto</td>
-	</tr>
-	<tr>
-		<td>24/06/2024</td> <td>2</td> <td>21</td> <td>11</td> <td>Desarrollo de proyecto</td>
-	</tr>
-	<tr>
-		<td>25/06/2024</td> <td>2</td> <td>22</td> <td>11</td> <td>Desarrollo de proyecto</td>
-	</tr>
-	<tr>
-		<td>25/06/2024</td> <td>2</td> <td>22</td> <td>11</td> <td>Desarrollo de proyecto</td>
+		<td>13/11/2024</td> <td>2</td> <td>30</td> <td>15</td>
 	</tr>
 
 </table>
