@@ -59,34 +59,34 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
 	</tr>
 	<tr>
-		<td>02/11/2024</td> <td>2</td> <td>11</td> <td>6</td> <td rowspan="10">Desarrollo y/o entrega de laboratorios y proyecto</td>
+		<td>02/12/2024</td> <td>2</td> <td>11</td> <td>6</td> <td rowspan="10">Desarrollo y/o entrega de laboratorios y proyecto</td>
 	</tr>
 	<tr>
-		<td>02/11/2024</td> <td>2</td> <td>12</td> <td>6</td> 
+		<td>02/12/2024</td> <td>2</td> <td>12</td> <td>6</td> 
 	</tr>
 	<tr>
-		<td>03/11/2024</td> <td>2</td> <td>13</td> <td>7</td> 
+		<td>03/12/2024</td> <td>2</td> <td>13</td> <td>7</td> 
 	</tr>
 	<tr>
-		<td>03/11/2024</td> <td>2</td> <td>14</td> <td>7</td> 
+		<td>03/12/2024</td> <td>2</td> <td>14</td> <td>7</td> 
 	</tr>
 	<tr>
-		<td>04/11/2024</td> <td>2</td> <td>15</td> <td>8</td> 
+		<td>04/12/2024</td> <td>2</td> <td>15</td> <td>8</td> 
 	</tr>
     <tr>
-		<td>04/11/2024</td> <td>2</td> <td>16</td> <td>8</td> 
+		<td>04/12/2024</td> <td>2</td> <td>16</td> <td>8</td> 
 	</tr>
     <tr>
-		<td>05/11/2024</td> <td>2</td> <td>17</td> <td>9</td> 
+		<td>05/12/2024</td> <td>2</td> <td>17</td> <td>9</td> 
 	</tr>
     <tr>
-		<td>05/11/2024</td> <td>2</td> <td>18</td> <td>9</td> 
+		<td>05/12/2024</td> <td>2</td> <td>18</td> <td>9</td> 
 	</tr>
 	<tr>
-		<td>06/11/2024</td> <td>2</td> <td>19</td> <td>10</td> 
+		<td>06/12/2024</td> <td>2</td> <td>19</td> <td>10</td> 
 	</tr>
     <tr>
-		<td>06/11/2024</td> <td>2</td> <td>20</td> <td>10</td> 
+		<td>06/12/2024</td> <td>2</td> <td>20</td> <td>10</td> 
 	</tr>
 
 </table>
@@ -98,34 +98,34 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
 	</tr>
 	<tr>
-		<td>09/11/2024</td> <td>2</td> <td>21</td> <td>11</td> <td rowspan="10">Desarrollo y/o entrega de laboratorios y proyecto</td>
+		<td>09/12/2024</td> <td>2</td> <td>21</td> <td>11</td> <td rowspan="10">Desarrollo y/o entrega de laboratorios y proyecto</td>
 	</tr>
 	<tr>
-		<td>09/11/2024</td> <td>2</td> <td>22</td> <td>11</td> 
+		<td>09/12/2024</td> <td>2</td> <td>22</td> <td>11</td> 
 	</tr>
 	<tr>
-		<td>10/11/2024</td> <td>2</td> <td>23</td> <td>12</td> 
+		<td>10/12/2024</td> <td>2</td> <td>23</td> <td>12</td> 
 	</tr>
 	<tr>
-		<td>10/11/2024</td> <td>2</td> <td>24</td> <td>12</td> 
+		<td>10/12/2024</td> <td>2</td> <td>24</td> <td>12</td> 
 	</tr><!--Finalización de clases-->
 	<tr>
-		<td>11/11/2024</td> <td>2</td> <td>25</td> <td>13</td> 
+		<td>11/12/2024</td> <td>2</td> <td>25</td> <td>13</td> 
 	</tr>
     <tr>
-		<td>11/11/2024</td> <td>2</td> <td>26</td> <td>13</td> 
+		<td>11/12/2024</td> <td>2</td> <td>26</td> <td>13</td> 
 	</tr>
     <tr>
-		<td>12/11/2024</td> <td>2</td> <td>27</td> <td>14</td> 
+		<td>12/12/2024</td> <td>2</td> <td>27</td> <td>14</td> 
 	</tr>
     <tr>
-		<td>12/11/2024</td> <td>2</td> <td>28</td> <td>14</td> 
+		<td>12/12/2024</td> <td>2</td> <td>28</td> <td>14</td> 
 	</tr>
     <tr>
-		<td>13/11/2024</td> <td>2</td> <td>29</td> <td>15</td>
+		<td>13/12/2024</td> <td>2</td> <td>29</td> <td>15</td>
 	</tr>
     <tr>
-		<td>13/11/2024</td> <td>2</td> <td>30</td> <td>15</td>
+		<td>13/12/2024</td> <td>2</td> <td>30</td> <td>15</td>
 	</tr>
 
 </table>
