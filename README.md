@@ -26,28 +26,28 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td>09/06/2025</td> <td>2</td> <td>2</td> <td>1</td> <td>Introducción PIC 18F45K22</td>
 	</tr>
 	<tr>
-		<td>10/06/2025</td> <td>2</td> <td>3</td> <td>2</td> <td>GLCD</td>
+		<td>10/06/2025</td> <td>2</td> <td>3</td> <td>1</td> <td>GLCD</td>
 	</tr>
 	<tr>
-		<td>10/06/2025</td> <td>2</td> <td>4</td> <td>2</td> <td>Ejemplo GLCD</td>
+		<td>10/06/2025</td> <td>2</td> <td>4</td> <td>1</td> <td>Ejemplo GLCD</td>
 	</tr>
 	<tr>
-		<td>11/06/2025</td> <td>2</td> <td>5</td> <td>3</td> <td>UART</td>
+		<td>11/06/2025</td> <td>2</td> <td>5</td> <td>1</td> <td>UART</td>
 	</tr>
 	<tr>
-		<td>11/06/2025</td> <td>2</td> <td>6</td> <td>3</td> <td>Ejemplos UART</td>
+		<td>11/06/2025</td> <td>2</td> <td>6</td> <td>1</td> <td>Ejemplos UART</td>
 	</tr>
     <tr>
-		<td>12/06/2025</td> <td>2</td> <td>7</td> <td>4</td> <td>IoT</td>
+		<td>12/06/2025</td> <td>2</td> <td>7</td> <td>1</td> <td>IoT</td>
 	</tr>
     <tr>
-		<td>12/06/2025</td> <td>2</td> <td>8</td> <td>4</td> <td>Ejemplo IoT</td>
+		<td>12/06/2025</td> <td>2</td> <td>8</td> <td>1</td> <td>Ejemplo IoT</td>
 	</tr>
 	<tr>
-		<td>13/06/2025</td> <td>2</td> <td>9</td> <td>5</td> <td rowspan="2">Desarrollo y/o entrega de laboratorios y proyecto</td>
+		<td>13/06/2025</td> <td>2</td> <td>9</td> <td>1</td> <td rowspan="2">Desarrollo y/o entrega de laboratorios y proyecto</td>
 	</tr>
     <tr>
-		<td>13/06/2025</td> <td>2</td> <td>10</td> <td>5</td>
+		<td>13/06/2025</td> <td>2</td> <td>10</td> <td>1</td>
 	</tr>
 
 </table>
@@ -59,34 +59,34 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
 	</tr>
 	<tr>
-		<td>16/06/2025</td> <td>2</td> <td>11</td> <td>6</td> <td rowspan="10">Desarrollo y/o entrega de laboratorios y proyecto</td>
+		<td>16/06/2025</td> <td>2</td> <td>11</td> <td>2</td> <td rowspan="10">Desarrollo y/o entrega de laboratorios y proyecto</td>
 	</tr>
 	<tr>
-		<td>16/06/2025</td> <td>2</td> <td>12</td> <td>6</td> 
+		<td>16/06/2025</td> <td>2</td> <td>12</td> <td>2</td> 
 	</tr>
 	<tr>
-		<td>17/06/2025</td> <td>2</td> <td>13</td> <td>7</td> 
+		<td>17/06/2025</td> <td>2</td> <td>13</td> <td>2</td> 
 	</tr>
 	<tr>
-		<td>17/06/2025</td> <td>2</td> <td>14</td> <td>7</td> 
+		<td>17/06/2025</td> <td>2</td> <td>14</td> <td>2</td> 
 	</tr>
 	<tr>
-		<td>18/06/2025</td> <td>2</td> <td>15</td> <td>8</td> 
+		<td>18/06/2025</td> <td>2</td> <td>15</td> <td>2</td> 
 	</tr>
     <tr>
-		<td>18/06/2025</td> <td>2</td> <td>16</td> <td>8</td> 
+		<td>18/06/2025</td> <td>2</td> <td>16</td> <td>2</td> 
 	</tr>
     <tr>
-		<td>19/06/2025</td> <td>2</td> <td>17</td> <td>9</td> 
+		<td>19/06/2025</td> <td>2</td> <td>17</td> <td>2</td> 
 	</tr>
     <tr>
-		<td>19/06/2025</td> <td>2</td> <td>18</td> <td>9</td> 
+		<td>19/06/2025</td> <td>2</td> <td>18</td> <td>2</td> 
 	</tr>
 	<tr>
-		<td>20/06/2025</td> <td>2</td> <td>19</td> <td>10</td> 
+		<td>20/06/2025</td> <td>2</td> <td>19</td> <td>2</td> 
 	</tr>
     <tr>
-		<td>20/06/2025</td> <td>2</td> <td>20</td> <td>10</td> 
+		<td>20/06/2025</td> <td>2</td> <td>20</td> <td>2</td> 
 	</tr>
 
 </table>
@@ -98,34 +98,34 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
 	</tr>
 	<tr>
-		<td>23/06/2025</td> <td>2</td> <td>21</td> <td>11</td> <td rowspan="2">Festivo</td>
+		<td>23/06/2025</td> <td></td> <td></td> <td>3</td> <td rowspan="2">Festivo</td>
 	</tr>
 	<tr>
-		<td>23/06/2025</td> <td>2</td> <td>22</td> <td>11</td> 
+		<td>23/06/2025</td> <td></td> <td></td> <td>3</td> 
 	</tr>
 	<tr>
-		<td>24/06/2025</td> <td>2</td> <td>23</td> <td>12</td> <td rowspan="8">Desarrollo y/o entrega de laboratorios y proyecto</td>
+		<td>24/06/2025</td> <td>2</td> <td>21</td> <td>3</td> <td rowspan="8">Desarrollo y/o entrega de laboratorios y proyecto</td>
 	</tr>
 	<tr>
-		<td>24/06/2025</td> <td>2</td> <td>24</td> <td>12</td> 
+		<td>24/06/2025</td> <td>2</td> <td>22</td> <td>3</td> 
 	</tr><!--Finalización de clases-->
 	<tr>
-		<td>25/06/2025</td> <td>2</td> <td>25</td> <td>13</td> 
+		<td>25/06/2025</td> <td>2</td> <td>23</td> <td>3</td> 
 	</tr>
     <tr>
-		<td>25/06/2025</td> <td>2</td> <td>26</td> <td>13</td> 
+		<td>25/06/2025</td> <td>2</td> <td>24</td> <td>3</td> 
 	</tr>
     <tr>
-		<td>26/06/2025</td> <td>2</td> <td>27</td> <td>14</td> 
+		<td>26/06/2025</td> <td>2</td> <td>25</td> <td>3</td> 
 	</tr>
     <tr>
-		<td>26/06/2025</td> <td>2</td> <td>28</td> <td>14</td> 
+		<td>26/06/2025</td> <td>2</td> <td>26</td> <td>3</td> 
 	</tr>
     <tr>
-		<td>27/06/2025</td> <td>2</td> <td>29</td> <td>15</td>
+		<td>27/06/2025</td> <td>2</td> <td>27</td> <td>3</td>
 	</tr>
     <tr>
-		<td>27/06/2025</td> <td>2</td> <td>30</td> <td>15</td>
+		<td>27/06/2025</td> <td>2</td> <td>28</td> <td>3</td>
 	</tr>
 </table>
 
@@ -136,34 +136,34 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
 	</tr>
 	<tr>
-		<td>30/06/2025</td> <td>2</td> <td>21</td> <td>11</td> <td rowspan="2">Festivo</td>
+		<td>30/06/2025</td> <td>2</td> <td></td> <td>4</td> <td rowspan="2">Festivo</td>
 	</tr>
 	<tr>
-		<td>30/06/2025</td> <td>2</td> <td>22</td> <td>11</td> 
+		<td>30/06/2025</td> <td>2</td> <td></td> <td>4</td> 
 	</tr>
 	<tr>
-		<td>01/07/2025</td> <td>2</td> <td>23</td> <td>12</td> <td rowspan="8">Desarrollo y/o entrega de laboratorios y proyecto</td>
+		<td>01/07/2025</td> <td>2</td> <td>29</td> <td>4</td> <td rowspan="8">Desarrollo y/o entrega de laboratorios y proyecto</td>
 	</tr>
 	<tr>
-		<td>01/07/2025</td> <td>2</td> <td>24</td> <td>12</td> 
+		<td>01/07/2025</td> <td>2</td> <td>30</td> <td>4</td> 
 	</tr><!--Finalización de clases-->
 	<tr>
-		<td>02/07/2025</td> <td>2</td> <td>25</td> <td>13</td> 
+		<td>02/07/2025</td> <td>2</td> <td>31</td> <td>4</td> 
 	</tr>
     <tr>
-		<td>02/07/2025</td> <td>2</td> <td>26</td> <td>13</td> 
+		<td>02/07/2025</td> <td>2</td> <td>32</td> <td>4</td> 
 	</tr>
     <tr>
-		<td>03/07/2025</td> <td>2</td> <td>27</td> <td>14</td> 
+		<td>03/07/2025</td> <td>2</td> <td>33</td> <td>4</td> 
 	</tr>
     <tr>
-		<td>03/07/2025</td> <td>2</td> <td>28</td> <td>14</td> 
+		<td>03/07/2025</td> <td>2</td> <td>34</td> <td>4</td> 
 	</tr>
     <tr>
-		<td>04/07/2025</td> <td>2</td> <td>29</td> <td>15</td>
+		<td>04/07/2025</td> <td>2</td> <td>35</td> <td>4</td>
 	</tr>
     <tr>
-		<td>04/07/2025</td> <td>2</td> <td>30</td> <td>15</td>
+		<td>04/07/2025</td> <td>2</td> <td>36</td> <td>4</td>
 	</tr>
 </table>
 
@@ -185,12 +185,12 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 	<tr>
 		<td>Laboratorios y/o talleres</td>
 		<td>40%</td>
-		<td>04/11/2025<br>06/11/2025<br>11/11/2025</td>
+		<td>18/06/2025<br>23/06/2025<br>27/06/2025</td>
 	</tr>
     <tr>
 		<td>Proyecto</td>
 		<td>50%</td>
-		<td>13/11/2025</td>
+		<td>04/07/2025</td>
 	</tr>
 </table>
 
