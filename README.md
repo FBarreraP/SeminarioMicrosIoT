@@ -1,7 +1,7 @@
 <h1 align="center">Profesor: MSc. Fabián Barrera Prieto 👨‍🏫<br>
 Materia: Seminario de Microcontroladores con IoT 🤖<br>
 Universidad: ECCI 🏫<br>
-Año: 2024 📅</h1><br>
+Año: 2025 📅</h1><br>
 
 El curso de microcontroladores está enfocado al estudio y desarrollo de aplicaciones automatizadas con UART, SPI, I2C e IoT a través del PIC 18F45K22, que es un microcontrolador de bajo costo. 
 
@@ -20,34 +20,34 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
 	</tr>
 	<tr>
-		<td>25/11/2024</td> <td>2</td> <td>1</td> <td>1</td> <td>Presentación del seminario</td>
+		<td>09/06/2025</td> <td>2</td> <td>1</td> <td>1</td> <td>Presentación del seminario</td>
 	</tr>
     <tr>
-		<td>25/11/2024</td> <td>2</td> <td>2</td> <td>1</td> <td>Introducción PIC 18F45K22</td>
+		<td>09/06/2025</td> <td>2</td> <td>2</td> <td>1</td> <td>Introducción PIC 18F45K22</td>
 	</tr>
 	<tr>
-		<td>26/11/2024</td> <td>2</td> <td>3</td> <td>2</td> <td>GLCD</td>
+		<td>10/06/2025</td> <td>2</td> <td>3</td> <td>2</td> <td>GLCD</td>
 	</tr>
 	<tr>
-		<td>26/11/2024</td> <td>2</td> <td>4</td> <td>2</td> <td>Ejemplo GLCD</td>
+		<td>10/06/2025</td> <td>2</td> <td>4</td> <td>2</td> <td>Ejemplo GLCD</td>
 	</tr>
 	<tr>
-		<td>27/11/2024</td> <td>2</td> <td>5</td> <td>3</td> <td>UART</td>
+		<td>11/06/2025</td> <td>2</td> <td>5</td> <td>3</td> <td>UART</td>
 	</tr>
 	<tr>
-		<td>27/11/2024</td> <td>2</td> <td>6</td> <td>3</td> <td>Ejemplos UART</td>
+		<td>11/06/2025</td> <td>2</td> <td>6</td> <td>3</td> <td>Ejemplos UART</td>
 	</tr>
     <tr>
-		<td>28/11/2024</td> <td>2</td> <td>7</td> <td>4</td> <td>IoT</td>
+		<td>12/06/2025</td> <td>2</td> <td>7</td> <td>4</td> <td>IoT</td>
 	</tr>
     <tr>
-		<td>28/11/2024</td> <td>2</td> <td>8</td> <td>4</td> <td>Ejemplo IoT</td>
+		<td>12/06/2025</td> <td>2</td> <td>8</td> <td>4</td> <td>Ejemplo IoT</td>
 	</tr>
 	<tr>
-		<td>29/11/2024</td> <td>2</td> <td>9</td> <td>5</td> <td rowspan="2">Reunión ECCI</td>
+		<td>13/06/2025</td> <td>2</td> <td>9</td> <td>5</td> <td rowspan="2">Desarrollo y/o entrega de laboratorios y proyecto</td>
 	</tr>
     <tr>
-		<td>29/11/2024</td> <td>2</td> <td>10</td> <td>5</td>
+		<td>13/06/2025</td> <td>2</td> <td>10</td> <td>5</td>
 	</tr>
 
 </table>
@@ -59,34 +59,34 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
 	</tr>
 	<tr>
-		<td>02/12/2024</td> <td>2</td> <td>11</td> <td>6</td> <td rowspan="10">Desarrollo y/o entrega de laboratorios y proyecto</td>
+		<td>16/06/2025</td> <td>2</td> <td>11</td> <td>6</td> <td rowspan="10">Desarrollo y/o entrega de laboratorios y proyecto</td>
 	</tr>
 	<tr>
-		<td>02/12/2024</td> <td>2</td> <td>12</td> <td>6</td> 
+		<td>16/06/2025</td> <td>2</td> <td>12</td> <td>6</td> 
 	</tr>
 	<tr>
-		<td>03/12/2024</td> <td>2</td> <td>13</td> <td>7</td> 
+		<td>17/06/2025</td> <td>2</td> <td>13</td> <td>7</td> 
 	</tr>
 	<tr>
-		<td>03/12/2024</td> <td>2</td> <td>14</td> <td>7</td> 
+		<td>17/06/2025</td> <td>2</td> <td>14</td> <td>7</td> 
 	</tr>
 	<tr>
-		<td>04/12/2024</td> <td>2</td> <td>15</td> <td>8</td> 
+		<td>18/06/2025</td> <td>2</td> <td>15</td> <td>8</td> 
 	</tr>
     <tr>
-		<td>04/12/2024</td> <td>2</td> <td>16</td> <td>8</td> 
+		<td>18/06/2025</td> <td>2</td> <td>16</td> <td>8</td> 
 	</tr>
     <tr>
-		<td>05/12/2024</td> <td>2</td> <td>17</td> <td>9</td> 
+		<td>19/06/2025</td> <td>2</td> <td>17</td> <td>9</td> 
 	</tr>
     <tr>
-		<td>05/12/2024</td> <td>2</td> <td>18</td> <td>9</td> 
+		<td>19/06/2025</td> <td>2</td> <td>18</td> <td>9</td> 
 	</tr>
 	<tr>
-		<td>06/12/2024</td> <td>2</td> <td>19</td> <td>10</td> 
+		<td>20/06/2025</td> <td>2</td> <td>19</td> <td>10</td> 
 	</tr>
     <tr>
-		<td>06/12/2024</td> <td>2</td> <td>20</td> <td>10</td> 
+		<td>20/06/2025</td> <td>2</td> <td>20</td> <td>10</td> 
 	</tr>
 
 </table>
@@ -98,36 +98,73 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
 	</tr>
 	<tr>
-		<td>09/12/2024</td> <td>2</td> <td>21</td> <td>11</td> <td rowspan="10">Desarrollo y/o entrega de laboratorios y proyecto</td>
+		<td>23/06/2025</td> <td>2</td> <td>21</td> <td>11</td> <td rowspan="2">Festivo</td>
 	</tr>
 	<tr>
-		<td>09/12/2024</td> <td>2</td> <td>22</td> <td>11</td> 
+		<td>23/06/2025</td> <td>2</td> <td>22</td> <td>11</td> 
 	</tr>
 	<tr>
-		<td>10/12/2024</td> <td>2</td> <td>23</td> <td>12</td> 
+		<td>24/06/2025</td> <td>2</td> <td>23</td> <td>12</td> <td rowspan="8">Desarrollo y/o entrega de laboratorios y proyecto</td>
 	</tr>
 	<tr>
-		<td>10/12/2024</td> <td>2</td> <td>24</td> <td>12</td> 
+		<td>24/06/2025</td> <td>2</td> <td>24</td> <td>12</td> 
 	</tr><!--Finalización de clases-->
 	<tr>
-		<td>11/12/2024</td> <td>2</td> <td>25</td> <td>13</td> 
+		<td>25/06/2025</td> <td>2</td> <td>25</td> <td>13</td> 
 	</tr>
     <tr>
-		<td>11/12/2024</td> <td>2</td> <td>26</td> <td>13</td> 
+		<td>25/06/2025</td> <td>2</td> <td>26</td> <td>13</td> 
 	</tr>
     <tr>
-		<td>12/12/2024</td> <td>2</td> <td>27</td> <td>14</td> 
+		<td>26/06/2025</td> <td>2</td> <td>27</td> <td>14</td> 
 	</tr>
     <tr>
-		<td>12/12/2024</td> <td>2</td> <td>28</td> <td>14</td> 
+		<td>26/06/2025</td> <td>2</td> <td>28</td> <td>14</td> 
 	</tr>
     <tr>
-		<td>13/12/2024</td> <td>2</td> <td>29</td> <td>15</td>
+		<td>27/06/2025</td> <td>2</td> <td>29</td> <td>15</td>
 	</tr>
     <tr>
-		<td>13/12/2024</td> <td>2</td> <td>30</td> <td>15</td>
+		<td>27/06/2025</td> <td>2</td> <td>30</td> <td>15</td>
 	</tr>
+</table>
 
+<h4>Cuarta semana</h4>
+
+<table>
+	<tr>
+		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
+	</tr>
+	<tr>
+		<td>30/06/2025</td> <td>2</td> <td>21</td> <td>11</td> <td rowspan="2">Festivo</td>
+	</tr>
+	<tr>
+		<td>30/06/2025</td> <td>2</td> <td>22</td> <td>11</td> 
+	</tr>
+	<tr>
+		<td>01/07/2025</td> <td>2</td> <td>23</td> <td>12</td> <td rowspan="8">Desarrollo y/o entrega de laboratorios y proyecto</td>
+	</tr>
+	<tr>
+		<td>01/07/2025</td> <td>2</td> <td>24</td> <td>12</td> 
+	</tr><!--Finalización de clases-->
+	<tr>
+		<td>02/07/2025</td> <td>2</td> <td>25</td> <td>13</td> 
+	</tr>
+    <tr>
+		<td>02/07/2025</td> <td>2</td> <td>26</td> <td>13</td> 
+	</tr>
+    <tr>
+		<td>03/07/2025</td> <td>2</td> <td>27</td> <td>14</td> 
+	</tr>
+    <tr>
+		<td>03/07/2025</td> <td>2</td> <td>28</td> <td>14</td> 
+	</tr>
+    <tr>
+		<td>04/07/2025</td> <td>2</td> <td>29</td> <td>15</td>
+	</tr>
+    <tr>
+		<td>04/07/2025</td> <td>2</td> <td>30</td> <td>15</td>
+	</tr>
 </table>
 
 <h3>MÉTODOS DE EVALUACIÓN ✍️</h3>
@@ -148,12 +185,12 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 	<tr>
 		<td>Laboratorios y/o talleres</td>
 		<td>40%</td>
-		<td>04/11/2024<br>06/11/2024<br>11/11/2024</td>
+		<td>04/11/2025<br>06/11/2025<br>11/11/2025</td>
 	</tr>
     <tr>
 		<td>Proyecto</td>
 		<td>50%</td>
-		<td>13/11/2024</td>
+		<td>13/11/2025</td>
 	</tr>
 </table>
 
@@ -185,6 +222,7 @@ Nota del curso = (0.1)*Quices + (0.4)*Laboratorios y/o talleres + (0.5)*Proyecto
 	<li> Con el 10% de las fallas se pierde la materia</li>
 	<li> Las ausencias a clases donde se saque una calificación se debe presentar la excusa familiar o laboral en la dirección del programa</li>
 	<li> El seminario se aprueba con una calificación final igual o superior a 3.5 </li>
+	<li> La mínima calificación en las actividades del seminario es 1.0 </li>
 </ul>
 
 <h3>NO EXCUSAS ❌</h3>
