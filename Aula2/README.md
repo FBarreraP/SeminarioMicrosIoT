@@ -51,8 +51,8 @@ Es un registro que permite configurar la fuente de oscilador del PIC 18F45K22.
 
 ![OSCCON bits](Imagenes/image-5.png)
 
-* El oscilador secundario es un cristal externo de baja potencia (32 kHz a 100 kHz) 
-* El reloj primario son osciladores externos, resonadores de cristal de cuarzo, resonadores cerámicos y circuitos Resistencia-Capacitor (RC).
+* El oscilador primario son osciladores externos, resonadores de cristal de cuarzo, resonadores cerámicos y circuitos Resistencia-Capacitor (RC).
+* El oscilador secundario utiliza el temporizador 1 del microcontrolador (32 kHz), por tanto, se debe conectar un oscilador cristal de 32.768 kHz en los pines RC0 (T1OSO) y RC1 (T1OSI).
 
 <h3>ANSEL, TRIS, LAT y PORT</h3>
 
