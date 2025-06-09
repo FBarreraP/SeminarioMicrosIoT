@@ -210,7 +210,7 @@ Nota del curso = (0.1)*Quices + (0.4)*Laboratorios y/o talleres + (0.5)*Proyecto
 		<li> No es permitido tomar fotos, ni videos en clase 📵. El material de clase está en el siguiente repositorio git: https://github.com/FBarreraP/SeminarioMicrosIoT </li>
 		<li> Los laboratorios (excepto el de GLCD) y el proyecto consistirán únicamente de montaje y podrán ser realizados en grupos de máximo 2 estudiantes 🧍‍♂️🧍‍♀️</li>
 		<li> Los montajes realizados en protoboard no son aceptados con jumpers, por tanto, deben ser realizados con cable UTP y no son compartidos, es decir, un montaje por grupo 🤷‍♂️</li>
-		<li> Los talleres se calificarán con rúbricas de 0.0 a 5.0 con intervalo de 1.0; las cuales tendrán diferentes entregables con fechas fijas de entrega y el orden de entrega de los grupos será definida por el profesor 💥</li> 
+		<li> Los talleres se calificarán con rúbricas de 2.0 a 5.0 con intervalo de 1.0; las cuales tendrán diferentes entregables con fechas fijas de entrega y el orden de entrega de los grupos será definida por el profesor 💥</li> 
 		<li> Los quices serán individuales y con esfero 📄</li> 
 		<li> Si llegan tarde a la clase deben investigar posteriormente sobre el tema perdido ✍️</li> 
         <li> Uso obligatorio de bata blanca en el laboratorio 🥼</li>
@@ -266,6 +266,9 @@ Nota del curso = (0.1)*Quices + (0.4)*Laboratorios y/o talleres + (0.5)*Proyecto
     <img src="https://cdn.awsli.com.br/400x400/468/468162/produto/19414377c73c1c655d.jpg" alt="lcd 16x2" caption="Hola"/>
     <li> Sensor infrarrojo</li>
     <img src="Imagenes/image-3.png" alt="sensor infrarrojo" caption="Hola"/>
-    <li> Puente H (L298/L293)</li>
-    <img src="https://www.ardobot.co/pub/media/catalog/product/cache/2641e33458f1ae4a696b47b0da974426/l/2/l2998neco.jpg" alt="L298" caption="Hola"/>
+	<div align="center">
+	<img src="image.png" alt="Puente H L298"/>
+	<br>
+	<figcaption>Fuente: https://www.prometec.net/l298n/</figcaption>
+	</div>
 </ul>
