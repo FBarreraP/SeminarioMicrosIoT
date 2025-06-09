@@ -266,6 +266,7 @@ Nota del curso = (0.1)*Quices + (0.4)*Laboratorios y/o talleres + (0.5)*Proyecto
     <img src="https://cdn.awsli.com.br/400x400/468/468162/produto/19414377c73c1c655d.jpg" alt="lcd 16x2" caption="Hola"/>
     <li> Sensor infrarrojo</li>
     <img src="Imagenes/image-3.png" alt="sensor infrarrojo" caption="Hola"/>
+	 <li> Puente H L298</li>
 	<div align="center">
 	<img src="image.png" alt="Puente H L298"/>
 	<br>
