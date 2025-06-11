@@ -185,7 +185,7 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 	<tr>
 		<td>Laboratorios y/o talleres</td>
 		<td>40%</td>
-		<td>18/06/2025<br>23/06/2025<br>27/06/2025</td>
+		<td>18/06/2025<br>24/06/2025<br>27/06/2025</td>
 	</tr>
     <tr>
 		<td>Proyecto</td>
