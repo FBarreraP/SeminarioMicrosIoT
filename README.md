@@ -98,31 +98,31 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
 	</tr>
 	<tr>
-		<td rowspan="2">13/12/2025</td> <td>2</td> <td>19</td> <td rowspan="10">3</td> <td rowspan="10">Desarrollo y/o entrega de laboratorios y proyecto</td>
+		<td rowspan="2">15/12/2025</td> <td>2</td> <td>19</td> <td rowspan="10">3</td> <td rowspan="10">Desarrollo y/o entrega de laboratorios y proyecto</td>
 	</tr>
 	<tr>
 		<td>2</td> <td>20</td>
 	</tr>
 	<tr>
-		<td rowspan="2">14/12/2025</td> <td>2</td> <td>21</td>
+		<td rowspan="2">16/12/2025</td> <td>2</td> <td>21</td>
 	</tr>
 	<tr>
 		<td>2</td> <td>22</td>
 	</tr><!--Finalización de clases-->
 	<tr>
-		<td rowspan="2">15/12/2025</td> <td>2</td> <td>23</td>
+		<td rowspan="2">17/12/2025</td> <td>2</td> <td>23</td>
 	</tr>
     <tr>
 		<td>2</td> <td>24</td>
 	</tr>
     <tr>
-		<td rowspan="2">16/12/2025</td> <td>2</td> <td>25</td>
+		<td rowspan="2">18/12/2025</td> <td>2</td> <td>25</td>
 	</tr>
     <tr>
 		<td>2</td> <td>26</td>
 	</tr>
     <tr>
-		<td rowspan="2">17/12/2025</td> <td>2</td> <td>27</td>
+		<td rowspan="2">19/12/2025</td> <td>2</td> <td>27</td>
 	</tr>
     <tr>
 		<td>2</td> <td>28</td>
