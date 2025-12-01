@@ -20,34 +20,34 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
 	</tr>
 	<tr>
-		<td>09/06/2025</td> <td>2</td> <td>1</td> <td>1</td> <td>Presentación del seminario</td>
+		<td rowspan="2">01/12/2025</td> <td>2</td> <td>1</td> <td rowspan="10">1</td> <td>Presentación del seminario</td>
 	</tr>
     <tr>
-		<td>09/06/2025</td> <td>2</td> <td>2</td> <td>1</td> <td>Introducción PIC 18F45K22</td>
+		<td>2</td> <td>2</td>  <td>Introducción PIC 18F45K22</td>
 	</tr>
 	<tr>
-		<td>10/06/2025</td> <td>2</td> <td>3</td> <td>1</td> <td>GLCD</td>
+		<td>02/12/2025</td> <td>2</td> <td>3</td> <td>GLCD</td>
 	</tr>
 	<tr>
-		<td>10/06/2025</td> <td>2</td> <td>4</td> <td>1</td> <td>Ejemplo GLCD</td>
+		<td>02/12/2025</td> <td>2</td> <td>4</td> <td>Ejemplo GLCD</td>
 	</tr>
 	<tr>
-		<td>11/06/2025</td> <td>2</td> <td>5</td> <td>1</td> <td>UART</td>
+		<td>03/12/2025</td> <td>2</td> <td>5</td> <td>UART</td>
 	</tr>
 	<tr>
-		<td>11/06/2025</td> <td>2</td> <td>6</td> <td>1</td> <td>Ejemplos UART</td>
+		<td>03/12/2025</td> <td>2</td> <td>6</td> <td>Ejemplos UART</td>
 	</tr>
     <tr>
-		<td>12/06/2025</td> <td>2</td> <td>7</td> <td>1</td> <td>IoT</td>
+		<td>04/12/2025</td> <td>2</td> <td>7</td> <td>IoT</td>
 	</tr>
     <tr>
-		<td>12/06/2025</td> <td>2</td> <td>8</td> <td>1</td> <td>Ejemplo IoT</td>
+		<td>04/12/2025</td> <td>2</td> <td>8</td><td>Ejemplo IoT</td>
 	</tr>
 	<tr>
-		<td>13/06/2025</td> <td>2</td> <td>9</td> <td>1</td> <td rowspan="2">Desarrollo y/o entrega de laboratorios y proyecto</td>
+		<td rowspan="2">05/12/2025</td> <td >2</td> <td>9</td><td rowspan="2">Desarrollo y/o entrega de laboratorios y proyecto</td>
 	</tr>
     <tr>
-		<td>13/06/2025</td> <td>2</td> <td>10</td> <td>1</td>
+		<td>2</td> <td>10</td>
 	</tr>
 
 </table>
