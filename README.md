@@ -26,22 +26,22 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td>2</td> <td>2</td>  <td>Introducción PIC 18F45K22</td>
 	</tr>
 	<tr>
-		<td>02/12/2025</td> <td>2</td> <td>3</td> <td>GLCD</td>
+		<td rowspan="2">02/12/2025</td> <td>2</td> <td>3</td> <td>GLCD</td>
 	</tr>
 	<tr>
-		<td>02/12/2025</td> <td>2</td> <td>4</td> <td>Ejemplo GLCD</td>
+		<td>2</td> <td>4</td> <td>Ejemplo GLCD</td>
 	</tr>
 	<tr>
-		<td>03/12/2025</td> <td>2</td> <td>5</td> <td>UART</td>
+		<td rowspan="2">03/12/2025</td> <td>2</td> <td>5</td> <td>UART</td>
 	</tr>
 	<tr>
-		<td>03/12/2025</td> <td>2</td> <td>6</td> <td>Ejemplos UART</td>
+		<td>2</td> <td>6</td> <td>Ejemplos UART</td>
 	</tr>
     <tr>
-		<td>04/12/2025</td> <td>2</td> <td>7</td> <td>IoT</td>
+		<td rowspan="2">04/12/2025</td> <td>2</td> <td>7</td> <td>IoT</td>
 	</tr>
     <tr>
-		<td>04/12/2025</td> <td>2</td> <td>8</td><td>Ejemplo IoT</td>
+		<td>2</td> <td>8</td><td>Ejemplo IoT</td>
 	</tr>
 	<tr>
 		<td rowspan="2">05/12/2025</td> <td >2</td> <td>9</td><td rowspan="2">Desarrollo y/o entrega de laboratorios y proyecto</td>
