@@ -139,7 +139,7 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td>Quices</td>	<td>10%</td> <td>Dos por semana</td> <td rowspan="3">Presencial</td>
 	</tr>
 	<tr>
-		<td>Laboratorios y/o talleres</td> <td>40%</td> <td>10/12/2025<br>12/12/2025<br>16/12/2025</td>
+		<td>Laboratorios y/o talleres</td> <td>40%</td> <td>09/12/2025<br>12/12/2025<br>16/12/2025</td>
 	</tr>
     <tr>
 		<td>Proyecto</td> <td>50%</td> <td>17/12/2025</td>
