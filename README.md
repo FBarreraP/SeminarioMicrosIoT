@@ -128,7 +128,7 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
 	</tr>
 	<tr>
-		<td rowspan="2">13/07/2026</td> <td rowspan="2"></td> <td rowspan="2"></td> <td rowspan="10">3</td> <td rowspan="2">FESTIVO</td>
+		<td rowspan="2">20/07/2026</td> <td rowspan="2"></td> <td rowspan="2"></td> <td rowspan="10">3</td> <td rowspan="2">FESTIVO</td>
 	</tr>
 	<tr>
 	</tr>
@@ -168,10 +168,10 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td>Quices</td>	<td>10%</td> <td>Dos por semana</td> <td rowspan="3">Presencial</td>
 	</tr>
 	<tr>
-		<td>Laboratorios y/o talleres</td> <td>40%</td> <td>09/12/2025<br>12/12/2025<br>16/12/2025</td>
+		<td>Laboratorios y/o talleres</td> <td>40%</td> <td>10/07/2026<br>14/07/2026<br>17/07/2026</td>
 	</tr>
     <tr>
-		<td>Proyecto</td> <td>50%</td> <td>19/12/2025</td>
+		<td>Proyecto</td> <td>50%</td> <td>24/07/2026</td>
 	</tr>
 </table>
 
