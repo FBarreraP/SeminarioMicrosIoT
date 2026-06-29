@@ -94,6 +94,8 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td rowspan="2">13/07/2026</td> <td rowspan="2"></td> <td rowspan="2"></td> <td rowspan="10">3</td> <td rowspan="2">FESTIVO</td>
 	</tr>
 	<tr>
+	</tr>
+	<tr>
 		<td rowspan="2">14/07/2026</td> <td>2</td> <td>19</td> <td rowspan="8">Desarrollo y/o entrega de laboratorios y proyecto</td>
 	</tr>
 	<tr>
