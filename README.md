@@ -1,7 +1,7 @@
 <h1 align="center">Profesor: MSc. Fabián Barrera Prieto 👨‍🏫<br>
 Materia: Seminario de Microcontroladores con IoT 🤖<br>
 Universidad: ECCI 🏫<br>
-Año: 2025 📅</h1><br>
+Año: 2026 📅</h1><br>
 
 El curso de microcontroladores está enfocado al estudio y desarrollo de aplicaciones automatizadas con UART, SPI, I2C e IoT a través del PIC 18F45K22, que es un microcontrolador de bajo costo. 
 
@@ -20,36 +20,29 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
 	</tr>
 	<tr>
-		<td rowspan="2">01/12/2025</td> <td>2</td> <td>1</td> <td rowspan="10">1</td> <td>Presentación del seminario</td>
+		<td rowspan="2">30/06/2026</td> <td>2</td> <td>1</td> <td rowspan="8">1</td> <td>Presentación del seminario</td>
 	</tr>
     <tr>
 		<td>2</td> <td>2</td>  <td>Introducción PIC 18F45K22</td>
 	</tr>
 	<tr>
-		<td rowspan="2">02/12/2025</td> <td>2</td> <td>3</td> <td>GLCD</td>
+		<td rowspan="2">01/07/2026</td> <td>2</td> <td>3</td> <td>GLCD</td>
 	</tr>
 	<tr>
 		<td>2</td> <td>4</td> <td>Ejemplo GLCD</td>
 	</tr>
 	<tr>
-		<td rowspan="2">03/12/2025</td> <td>2</td> <td>5</td> <td>UART</td>
+		<td rowspan="2">02/07/2026</td> <td>2</td> <td>5</td> <td>UART</td>
 	</tr>
 	<tr>
 		<td>2</td> <td>6</td> <td>Ejemplos UART</td>
 	</tr>
     <tr>
-		<td rowspan="2">04/12/2025</td> <td>2</td> <td>7</td> <td>IoT</td>
+		<td rowspan="2">03/07/2026</td> <td>2</td> <td>7</td> <td>IoT</td>
 	</tr>
     <tr>
 		<td>2</td> <td>8</td><td>Ejemplo IoT</td>
 	</tr>
-	<tr>
-		<td rowspan="2">05/12/2025</td> <td >2</td> <td>9</td><td rowspan="2">Desarrollo y/o entrega de laboratorios y proyecto</td>
-	</tr>
-    <tr>
-		<td>2</td> <td>10</td>
-	</tr>
-
 </table>
 
 <h4>Segunda semana</h4>
@@ -59,31 +52,31 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
 	</tr>
 	<tr>
-		<td rowspan="2">08/12/2025</td> <td></td> <td></td> <td rowspan="10">2</td> <td rowspan="2">FESTIVO</td>
+		<td rowspan="2">06/07/2026</td> <td >2</td> <td>9</td><td rowspan="10">Desarrollo y/o entrega de laboratorios y proyecto</td>
+	</tr>
+    <tr>
+		<td>2</td> <td>10</td>
 	</tr>
 	<tr>
-		<td></td> <td></td>
-	</tr>
-	<tr>
-		<td rowspan="2">09/12/2025</td> <td>2</td> <td>11</td> <td rowspan="8">Desarrollo y/o entrega de laboratorios y proyecto</td>
+		<td rowspan="2">07/07/2026</td> <td>2</td> <td>11</td>
 	</tr>
 	<tr>
 		<td>2</td> <td>12</td> 
 	</tr>
 	<tr>
-		<td rowspan="2">10/12/2025</td> <td>2</td> <td>13</td>
+		<td rowspan="2">08/07/2026</td> <td>2</td> <td>13</td>
 	</tr>
     <tr>
 		<td>2</td> <td>14</td> 
 	</tr>
     <tr>
-		<td rowspan="2">11/12/2025</td> <td>2</td> <td>15</td>
+		<td rowspan="2">09/07/2026</td> <td>2</td> <td>15</td>
 	</tr>
     <tr>
 		<td>2</td> <td>16</td>
 	</tr>
 	<tr>
-		<td rowspan="2">12/12/2025</td> <td>2</td> <td>17</td>
+		<td rowspan="2">10/07/2026</td> <td>2</td> <td>17</td>
 	</tr>
     <tr>
 		<td>2</td> <td>18</td>
@@ -98,34 +91,72 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
 	</tr>
 	<tr>
-		<td rowspan="2">15/12/2025</td> <td>2</td> <td>19</td> <td rowspan="10">3</td> <td rowspan="10">Desarrollo y/o entrega de laboratorios y proyecto</td>
+		<td rowspan="2">13/07/2026</td> <td></td> <td></td> <td rowspan="10">3</td> <td>FESTIVO</td>
+	</tr>
+	<tr>
+		<td></td> <td></td>
+	</tr>
+	<tr>
+		<td rowspan="2">14/07/2026</td> <td>2</td> <td>19</td> <td rowspan="8">Desarrollo y/o entrega de laboratorios y proyecto</td>
 	</tr>
 	<tr>
 		<td>2</td> <td>20</td>
-	</tr>
-	<tr>
-		<td rowspan="2">16/12/2025</td> <td>2</td> <td>21</td>
-	</tr>
-	<tr>
-		<td>2</td> <td>22</td>
 	</tr><!--Finalización de clases-->
 	<tr>
-		<td rowspan="2">17/12/2025</td> <td>2</td> <td>23</td>
+		<td rowspan="2">15/07/2026</td> <td>2</td> <td>21</td>
+	</tr>
+    <tr>
+		<td>2</td> <td>22</td>
+	</tr>
+    <tr>
+		<td rowspan="2">16/07/2026</td> <td>2</td> <td>23</td>
 	</tr>
     <tr>
 		<td>2</td> <td>24</td>
 	</tr>
     <tr>
-		<td rowspan="2">18/12/2025</td> <td>2</td> <td>25</td>
+		<td rowspan="2">17/07/2026</td> <td>2</td> <td>25</td>
 	</tr>
     <tr>
 		<td>2</td> <td>26</td>
 	</tr>
-    <tr>
-		<td rowspan="2">19/12/2025</td> <td>2</td> <td>27</td>
+</table>
+
+<h4>Cuarta semana</h4>
+
+<table>
+	<tr>
+		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
+	</tr>
+	<tr>
+		<td rowspan="2">20/07/2026</td> <td></td> <td></td> <td rowspan="10">3</td> <td>FESTIVO</td>
+	</tr>
+	<tr>
+		<td></td> <td></td>
+	</tr>
+	<tr>
+		<td rowspan="2">21/07/2026</td> <td>2</td> <td>27</td> <td rowspan="8">Desarrollo y/o entrega de laboratorios y proyecto</td>
+	</tr>
+	<tr>
+		<td>2</td> <td>28</td>
+	</tr><!--Finalización de clases-->
+	<tr>
+		<td rowspan="2">22/07/2026</td> <td>2</td> <td>29</td>
 	</tr>
     <tr>
-		<td>2</td> <td>28</td>
+		<td>2</td> <td>30</td>
+	</tr>
+    <tr>
+		<td rowspan="2">23/07/2026</td> <td>2</td> <td>31</td>
+	</tr>
+    <tr>
+		<td>2</td> <td>32</td>
+	</tr>
+    <tr>
+		<td rowspan="2">24/07/2026</td> <td>2</td> <td>33</td>
+	</tr>
+    <tr>
+		<td>2</td> <td>34</td>
 	</tr>
 </table>
 
