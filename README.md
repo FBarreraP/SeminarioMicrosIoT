@@ -128,7 +128,7 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td>Fecha</td> <td>Horas</td> <td>Clase</td> <td>Semana</td> <td>Actividades</td>
 	</tr>
 	<tr>
-		<td rowspan="2">20/07/2026</td> <td rowspan="2"></td> <td rowspan="2"></td> <td rowspan="10">3</td> <td rowspan="2">FESTIVO</td>
+		<td rowspan="2">20/07/2026</td> <td rowspan="2"></td> <td rowspan="2"></td> <td rowspan="10">4</td> <td rowspan="2">FESTIVO</td>
 	</tr>
 	<tr>
 	</tr>
