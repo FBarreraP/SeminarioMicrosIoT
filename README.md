@@ -150,12 +150,6 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
     <tr>
 		<td>2</td> <td>32</td>
 	</tr>
-    <tr>
-		<td rowspan="2">24/07/2026</td> <td>2</td> <td>33</td>
-	</tr>
-    <tr>
-		<td>2</td> <td>34</td>
-	</tr>
 </table>
 
 <h3>MÉTODOS DE EVALUACIÓN ✍️</h3>
@@ -171,7 +165,7 @@ En esta clase se presenta la materia, en cuanto al contenido temático, los mét
 		<td>Laboratorios y/o talleres</td> <td>40%</td> <td>10/07/2026<br>14/07/2026<br>17/07/2026</td>
 	</tr>
     <tr>
-		<td>Proyecto</td> <td>50%</td> <td>24/07/2026</td>
+		<td>Proyecto</td> <td>50%</td> <td>23/07/2026</td>
 	</tr>
 </table>
 
